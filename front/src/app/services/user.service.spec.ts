@@ -31,7 +31,7 @@ describe('UserService', () => {
   });
 
   afterEach(() => {
-    httpMock.verify(); // Vérifie qu’il n’y a pas de requêtes en attente
+    httpMock.verify(); 
   });
 
   it('should be created', () => {

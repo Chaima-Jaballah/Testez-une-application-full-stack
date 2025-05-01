@@ -53,7 +53,7 @@ describe('AuthService', () => {
 
   it('should call register API and return void', () => {
     service.register(mockRegisterRequest).subscribe((res) => {
-      expect(res).toBeUndefined(); // Observable<void>
+      expect(res).toBeUndefined(); 
     });
 
     const req = httpMock.expectOne('api/auth/register');
