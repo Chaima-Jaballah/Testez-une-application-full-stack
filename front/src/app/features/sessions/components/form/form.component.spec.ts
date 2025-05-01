@@ -13,9 +13,7 @@ import { Session } from "../../interfaces/session.interface";
 import { CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from "@angular/core";
 import { MatSnackBar } from "@angular/material/snack-bar";
 
-/**
- * Utility helpers & mocks
- */
+
 const mockSession: Session = {
   id: 1,
   name: "Test Session",
@@ -47,9 +45,7 @@ function createTeacherServiceStub() {
   } as unknown as TeacherService;
 }
 
-/**
- * We stub MatSnackBar because the real one schedules internal timers that keep the fakeAsync zone dirty.
- */
+
 function createMatSnackBarStub() {
   return {
     open: jest.fn()
@@ -118,7 +114,7 @@ describe("FormComponent – create mode", () => {
     const navigateSpy = jest.spyOn(router, "navigate").mockResolvedValue(true as any);
 
     component.submit();
-    flush(); // flush pending timers & micro‑tasks
+    flush(); 
 
     expect(sessionApiService.create).toHaveBeenCalledWith(component.sessionForm?.value);
     expect(navigateSpy).toHaveBeenCalledWith(["sessions"]);
