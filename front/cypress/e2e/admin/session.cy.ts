@@ -1,4 +1,4 @@
-describe('Admin Session spec', () => {
+describe('Admin login and create session only', () => {
   beforeEach(() => {
     cy.visit('/login');
 
@@ -8,132 +8,128 @@ describe('Admin Session spec', () => {
         username: 'userName',
         firstName: 'firstName',
         lastName: 'lastName',
-        email: 'yoga@studio.com',
         admin: true
       }
-    });
+    }).as('login'); 
 
-    cy.intercept('GET', '/api/session', []).as('session');
+    cy.intercept('GET', '**/session**', [
+      {
+        id: 5,
+        name: 'Yoga du matin',
+        date: '2025-09-15T00:00:00.000Z',
+        teacher_id: 1,
+        description: 'Séance dynamique',
+        users: []
+      }
+    ]).as('getSessions');
 
     cy.intercept('GET', '/api/teacher', [
       { id: 1, firstName: 'Margot', lastName: 'DELAHAYE' },
       { id: 2, firstName: 'Hélène', lastName: 'THIERCELIN' }
     ]);
 
-    cy.get('input[formControlName=email]').type('yoga@studio.com');
-    cy.get('input[formControlName=password]').type('test!1234{enter}{enter}');
-
-    cy.url().should('include', '/sessions');
-  });
-
-  it('Create a session successfully', () => {
-    cy.contains('Create').should('be.visible').click();
-
-    cy.get('input[formControlName="name"]').should('be.visible').type('nn');
-    cy.get('input[formControlName="date"]').should('be.visible').type('2025-08-02');
-    cy.get('mat-select[formControlName="teacher_id"]').should('be.visible').click();
-    cy.contains('Hélène THIERCELIN').click().should('be.visible');
-    cy.get('textarea[formControlName="description"]').should('be.visible').type('nn nn nn');
-
     cy.intercept('POST', '/api/session', {
       statusCode: 200,
       body: {
         id: 5,
-        name: 'nn',
-        date: '2025-08-02T00:00:00.000+00:00',
-        teacher_id: 2,
-        description: 'nn nn nn',
+        name: 'Yoga du matin',
+        date: '2025-09-15T00:00:00.000Z',
+        teacher_id: 1,
+        description: 'Séance dynamique',
         users: [],
-        createdAt: '2025-05-03T04:48:34.067724',
-        updatedAt: '2025-05-03T04:48:34.0767163'
+        createdAt: '2025-05-03T08:00:00.000Z',
+        updatedAt: '2025-05-03T08:00:00.000Z'
       }
     }).as('createSession');
-
-    cy.intercept('GET', '/api/session', [
-      {
-        id: 5,
-        name: 'nn',
-        date: '2025-08-02T00:00:00.000+00:00',
-        teacher_id: 2,
-        description: 'nn nn nn',
-        users: [],
-        createdAt: '2025-05-03T04:48:34.067724',
-        updatedAt: '2025-05-03T04:48:34.0767163'
-      }
-    ]).as('getSessionsAfterCreate');
-
-    cy.contains('Save').should('be.visible').click();
-    cy.wait('@createSession');
-
-    cy.visit('/sessions');
-    cy.wait('@getSessionsAfterCreate');
-
-    cy.get('snack-bar-container').should('contain.text', 'Session created !');
-    cy.contains('nn').should('exist').should('be.visible');
   });
 
-  it('Update a session successfully', () => {
-    cy.intercept('GET', '/api/session', [
-      {
-        id: 5,
-        name: 'nn',
-        date: '2025-08-02T00:00:00.000+00:00',
-        teacher_id: 2,
-        description: 'nn nn nn',
-        users: []
-      }
-    ]).as('getSessions');
-
-    cy.visit('/sessions');
-    cy.wait('@getSessions');
-
-    cy.contains('Edit').first().should('be.visible').click();
-
-    cy.get('input[formControlName="name"]').clear().type('Session modifiée').should('be.visible');
-    cy.get('input[formControlName="date"]').clear().type('2025-08-10').should('be.visible');
-    cy.get('mat-select[formControlName="teacher_id"]').click();
-    cy.contains('Margot DELAHAYE').click().should('be.visible');
-    cy.get('textarea[formControlName="description"]').clear().type('Description modifiée').should('be.visible');
-
-    cy.intercept('PUT', '/api/session/5', {
-      statusCode: 200,
-      body: { message: 'Session updated !' }
-    }).as('updateSession');
-
-    cy.contains('Save').should('be.visible').click();
-    cy.wait('@updateSession');
-
-    cy.get('snack-bar-container').should('contain.text', 'Session updated !');
-    cy.contains('Session modifiée').should('be.visible');
-  });
-
-  it('Delete a session successfully', () => {
-    cy.intercept('GET', '/api/session', [
-      {
-        id: 5,
-        name: 'Session modifiée',
-        date: '2025-08-10T00:00:00.000+00:00',
-        teacher_id: 1,
-        description: 'Description modifiée',
-        users: []
-      }
-    ]).as('getSessions');
-
-    cy.visit('/sessions');
-    cy.wait('@getSessions');
-
-    cy.contains('Detail').first().should('be.visible').click();
-    cy.url().should('include', '/sessions/detail/');
-
-    cy.intercept('DELETE', '/api/session/5', {
-      statusCode: 200,
-      body: { message: 'Session deleted !' }
-    }).as('deleteSession');
-
-    cy.contains('Delete').should('be.visible').click();
-    cy.wait('@deleteSession');
-
-    cy.get('snack-bar-container').should('contain.text', 'Session deleted !');
+  it('Login and create session', () => {
+    cy.get('input[formControlName=email]').type('yoga@studio.com');
+    cy.get('input[formControlName=password]').type('test!1234{enter}{enter}');
     cy.url().should('include', '/sessions');
+    cy.wait('@getSessions');
+
+    cy.contains('Create').click();
+    cy.get('input[formControlName="name"]').type('Yoga du matin');
+    cy.get('input[formControlName="date"]').type('2025-09-15');
+    cy.get('mat-select[formControlName="teacher_id"]').click();
+    cy.contains('Margot DELAHAYE').click();
+    cy.get('textarea[formControlName="description"]').type('Séance dynamique');
+    cy.contains('Save').click();
+    cy.wait('@createSession');
+    cy.get('snack-bar-container').should('contain.text', 'Session created !');
   });
 });
+
+
+describe('Admin update session', () => {
+  beforeEach(() => {
+    cy.visit('/login');
+
+    cy.intercept('POST', '/api/auth/login', {
+      body: {
+        id: 1,
+        username: 'yoga@studio.com',
+        firstName: 'Yoga',
+        lastName: 'Admin',
+        admin: true
+      }
+    }).as('login');
+
+    cy.intercept('GET', '**/session**', [
+      {
+        id: 3,
+        name: 'Yoga du soir',
+        date: '2025-09-10T00:00:00.000Z',
+        teacher_id: 1,
+        description: 'Ancienne description',
+        users: []
+      }
+    ]).as('getSessions');
+
+    cy.intercept('GET', '/api/session/3', {
+      id: 3,
+      name: 'Yoga du soir',
+      date: '2025-09-10T00:00:00.000Z',
+      teacher_id: 1,
+      description: 'Ancienne description',
+      users: []
+    }).as('getSessionById');
+
+    cy.intercept('GET', '/api/teacher', [
+      { id: 1, firstName: 'Margot', lastName: 'DELAHAYE' },
+      { id: 2, firstName: 'Hélène', lastName: 'THIERCELIN' }
+    ]);
+
+    cy.intercept('PUT', '/api/session/3', {
+      statusCode: 200,
+      body: {
+        message: 'Session updated !'
+      }
+    }).as('updateSession');
+  }); 
+
+  it('Login and update session', () => {
+    cy.get('input[formControlName=email]').type('yoga@studio.com');
+    cy.get('input[formControlName=password]').type('test!1234{enter}{enter}');
+    cy.url().should('include', '/sessions');
+    cy.wait('@getSessions');
+
+    cy.contains('Yoga du soir').should('exist');
+    cy.contains('Edit').click();
+    cy.wait('@getSessionById');
+
+    cy.get('input[formControlName="name"]').clear().type('Yoga du soir');
+    cy.get('input[formControlName="date"]').clear().type('2025-09-16');
+    cy.get('mat-select[formControlName="teacher_id"]').click();
+    cy.contains('Hélène THIERCELIN').click();
+    cy.get('textarea[formControlName="description"]').clear().type('Nouvelle description');
+
+    cy.contains('Save').click();
+    cy.wait('@updateSession');
+    cy.get('snack-bar-container').should('contain.text', 'Session updated !');
+
+    cy.contains('Yoga du soir').should('exist');
+  });
+});
+

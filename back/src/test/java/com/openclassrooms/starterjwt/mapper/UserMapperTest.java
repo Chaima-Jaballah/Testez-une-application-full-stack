@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import java.util.List;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
@@ -79,7 +81,7 @@ class UserMapperTest {
 	    dto2.setPassword("pass2");
 	    dto2.setAdmin(true);
 
-	    var list = userMapper.toEntity(java.util.List.of(dto1, dto2));
+	    List<User> list = userMapper.toEntity(java.util.List.of(dto1, dto2));
 
 	    assertEquals(2, list.size());
 	    assertEquals("a@example.com", list.get(0).getEmail());
@@ -104,7 +106,7 @@ class UserMapperTest {
 	    u2.setPassword("secret2");
 	    u2.setAdmin(true);
 
-	    var list = userMapper.toDto(java.util.List.of(u1, u2));
+	    List<UserDto> list = userMapper.toDto(java.util.List.of(u1, u2));
 
 	    assertEquals(2, list.size());
 	    assertEquals("a@example.com", list.get(0).getEmail());
