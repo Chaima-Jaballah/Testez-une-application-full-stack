@@ -6,7 +6,7 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/setup-jest.ts'],
   bail: false,
   verbose: false,
-  collectCoverage: false,
+  collectCoverage: true,
   coverageDirectory: './coverage/jest',
   testPathIgnorePatterns: ['<rootDir>/node_modules/'],
   coveragePathIgnorePatterns: ['<rootDir>/node_modules/'],
@@ -15,6 +15,11 @@ module.exports = {
       statements: 80
     },
   },
+  testMatch: [
+    "**/*.spec.ts",
+    "**/*.integration.spec.ts"
+  ],
+  
   roots: [
     "<rootDir>"
   ],

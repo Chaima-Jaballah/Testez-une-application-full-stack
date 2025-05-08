@@ -50,7 +50,7 @@ describe('SessionService', () => {
   });
 
   it('should reset state correctly on logOut()', (done) => {
-    service.logIn(mockUser); // simulate login
+    service.logIn(mockUser); 
     service.logOut();
 
     expect(service.isLogged).toBe(false);

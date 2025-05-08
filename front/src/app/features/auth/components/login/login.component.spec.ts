@@ -14,6 +14,7 @@ import { LoginComponent } from './login.component';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 import { of, throwError } from 'rxjs';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
@@ -51,7 +52,8 @@ describe('LoginComponent', () => {
         MatFormFieldModule,
         MatInputModule,
         ReactiveFormsModule
-      ]
+      ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     }).compileComponents();
 
     fixture = TestBed.createComponent(LoginComponent);
@@ -64,15 +66,15 @@ describe('LoginComponent', () => {
   });
 
   it('should login successfully and redirect', () => {
-    const fakeSession = { 
-      token: 'fake-token', 
-      type: 'Bearer', 
-      id: 1, 
-      username: 'testuser', 
-      firstName: 'Test', 
-      lastName: 'User', 
+    const fakeSession = {
+      token: 'fake-token',
+      type: 'Bearer',
+      id: 1,
+      username: 'testuser',
+      firstName: 'Test',
+      lastName: 'User',
       email: 'test@mail.com',
-      admin: false // Added the missing 'admin' property
+      admin: false 
     };
     mockAuthService.login.mockReturnValue(of(fakeSession));
 
@@ -111,5 +113,5 @@ describe('LoginComponent', () => {
     });
 
     expect(component.form.invalid).toBe(true);
-  }); 
+  });
 });
