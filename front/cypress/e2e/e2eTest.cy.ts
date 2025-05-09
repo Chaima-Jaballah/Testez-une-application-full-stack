@@ -51,6 +51,7 @@ describe('Login and Logout Admin', () => {
       cy.contains('Login').should('be.visible');
       cy.contains('Register').should('be.visible');
     });
+
   });
 
    //Test info Account Admin
@@ -144,8 +145,8 @@ describe('Login and Logout Admin', () => {
         }
       }).as('createSession');
     });
-  
-    it('Create session', () => {
+
+    it('Create session and verify button is disabled when required fields are missing', () => {
       cy.get('input[formControlName=email]').type('yoga@studio.com');
       cy.get('input[formControlName=password]').type('test!1234{enter}{enter}');
       cy.url().should('include', '/sessions');
@@ -156,11 +157,13 @@ describe('Login and Logout Admin', () => {
       cy.get('input[formControlName="date"]').type('2025-09-15');
       cy.get('mat-select[formControlName="teacher_id"]').click();
       cy.contains('Margot DELAHAYE').click();
+      cy.contains('button', 'Save').should('be.disabled'); 
       cy.get('textarea[formControlName="description"]').type('Séance dynamique');
-      cy.contains('Save').click();
+      cy.contains('Save').click(); 
       cy.wait('@createSession');
       cy.get('snack-bar-container').should('contain.text', 'Session created !');
     });
+
   });
   
   //Test Update session
@@ -211,13 +214,14 @@ describe('Login and Logout Admin', () => {
       }).as('updateSession');
     }); 
   
-    it('Update session', () => {
+    it('Ensure the "Detail" button exists and update session without missing required fields', () => {
       cy.get('input[formControlName=email]').type('yoga@studio.com');
       cy.get('input[formControlName=password]').type('test!1234{enter}{enter}');
       cy.url().should('include', '/sessions');
       cy.wait('@getSessions');
   
       cy.contains('Yoga du soir').should('exist');
+      cy.get('button').contains('Detail').should('exist');
       cy.contains('Edit').click();
       cy.wait('@getSessionById');
   
@@ -225,9 +229,13 @@ describe('Login and Logout Admin', () => {
       cy.get('input[formControlName="date"]').clear().type('2025-09-16');
       cy.get('mat-select[formControlName="teacher_id"]').click();
       cy.contains('Hélène THIERCELIN').click();
-      cy.get('textarea[formControlName="description"]').clear().type('description');
-  
+
+      cy.get('textarea[formControlName="description"]').clear();
+      cy.contains('button', 'Save').should('be.disabled');
+
+      cy.get('textarea[formControlName="description"]').type('description');
       cy.contains('Save').click();
+
       cy.wait('@updateSession');
       cy.get('snack-bar-container').should('contain.text', 'Session updated !');
       cy.contains('Yoga du soir').should('exist');
@@ -349,7 +357,7 @@ describe('Login and Logout Admin', () => {
       cy.url().should('include', '/sessions');
     });
   
-    it('should show error message if registration fails', () => {
+    it('should show error message if registration fails when email already used', () => {
       cy.visit('/register');
     
       cy.intercept('POST', '/api/auth/register', {
@@ -366,6 +374,16 @@ describe('Login and Logout Admin', () => {
       cy.wait('@registerFail');
     
       cy.contains('An error occurred').should('be.visible');
+    });
+
+    it('Submit button should be disabled if any required field is empty', () => {
+      cy.visit('/register');
+      //Field First name is empty
+      cy.get('input[formControlName=email]').type('client@client.com');
+      cy.get('input[formControlName=lastName]').type('User');
+      cy.get('input[formControlName=password]').type('client');
+    
+      cy.get('button[type=submit]').should('be.disabled');
     });
     
   });
@@ -400,6 +418,38 @@ describe('Login and Logout Admin', () => {
       cy.contains('Login').should('be.visible');
       cy.contains('Register').should('be.visible');
     });
+
+    it('Should show an error message if login information is incorrect', () => {
+      cy.visit('/login');
+
+      cy.intercept('POST', '/api/auth/login', {
+        statusCode: 400,
+        body: { message: 'An error occurred' }
+      }).as('loginFail');
+
+      cy.get('input[formControlName=email]').type('client@client.com');
+      cy.get('input[formControlName=password]').type('False Password');
+    
+      cy.get('button[type="submit"]').click();
+      cy.wait('@loginFail');
+    
+      cy.contains('An error occurred').should('be.visible');
+    });
+
+    it('Submit button should be disabled if email field is empty', () => {
+      cy.visit('/login');
+      //Field email is empty
+      cy.get('input[formControlName=email]').type('client@client.com');   
+      cy.get('button[type=submit]').should('be.disabled');
+    });
+
+    it('Submit button should be disabled if password field is empty', () => {
+      cy.visit('/login');
+      //Field password is empty
+      cy.get('input[formControlName=password]').type('client');    
+      cy.get('button[type=submit]').should('be.disabled');
+    });
+
   });
   
 
@@ -441,7 +491,7 @@ describe('Login and Logout Admin', () => {
         cy.intercept('DELETE', '/api/session/3/participate/29', { statusCode: 200 }).as('unParticipate');
       });
     
-      it('User participates in a session', () => {
+      it('User views session details and participates, "Create" and "Delete" buttons should not exist', () => {
         cy.intercept('GET', '/api/session/3', {
           id: 3,
           name: 'Yoga session',
@@ -456,8 +506,10 @@ describe('Login and Logout Admin', () => {
         cy.get('input[formControlName=email]').type('client@client.com');
         cy.get('input[formControlName=password]').type('client{enter}{enter}');
         cy.wait('@getSessions');
+        cy.contains('button', 'Create').should('not.exist');
         cy.contains('Detail').click();
         cy.wait('@getSessionDetailInitial');
+        cy.contains('button', 'Delete').should('not.exist');
     
         cy.contains('0 attendees').should('exist');
     
