@@ -52,7 +52,7 @@ function createMatSnackBarStub() {
   } as any;
 }
 
-describe("FormComponent – create mode", () => {
+describe("FormComponent create mode", () => {
   let fixture: ComponentFixture<FormComponent>;
   let component: FormComponent;
   let sessionApiService: jest.Mocked<SessionApiService>;
@@ -121,7 +121,7 @@ describe("FormComponent – create mode", () => {
   }));
 });
 
-describe("FormComponent – update mode", () => {
+describe("FormComponent update mode", () => {
   let fixture: ComponentFixture<FormComponent>;
   let component: FormComponent;
   let sessionApiService: jest.Mocked<SessionApiService>;

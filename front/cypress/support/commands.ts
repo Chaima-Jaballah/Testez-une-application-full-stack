@@ -41,3 +41,50 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+declare namespace Cypress {
+  interface Chainable {
+    loginAsAdmin(): Chainable<void>;
+    loginAsUser(): Chainable<void>;
+  }
+}
+
+Cypress.Commands.add('loginAsAdmin', () => {
+  cy.visit('/login');
+
+  cy.intercept('POST', '/api/auth/login', {
+    body: {
+      token: 'mock-token-admin',
+      type: 'Bearer',
+      id: 1,
+      username: 'yoga@studio.com',
+      firstName: 'Admin',
+      lastName: 'ADMIN',
+      admin: true
+    }
+  }).as('loginAdmin');
+
+  cy.get('input[formControlName=email]').type('yoga@studio.com');
+  cy.get('input[formControlName=password]').type('test!1234{enter}{enter}');
+  cy.url().should('include', '/sessions');
+});
+
+
+Cypress.Commands.add('loginAsUser', () => {
+  cy.visit('/login');
+
+  cy.intercept('POST', '/api/auth/login', {
+    body: {
+      token: 'mock-token-user',
+      type: 'Bearer',
+      id: 29,
+      username: 'client@client.com',
+      firstName: 'client',
+      lastName: 'CLIENT',
+      admin: false
+    }
+  }).as('loginUser');
+
+  cy.get('input[formControlName=email]').type('client@client.com');
+  cy.get('input[formControlName=password]').type('client{enter}{enter}');
+  cy.url().should('include', '/sessions');
+});
