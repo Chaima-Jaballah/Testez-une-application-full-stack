@@ -2,6 +2,7 @@ import { defineConfig } from 'cypress'
 const codeCoverageTask = require('@cypress/code-coverage/task');
 
 export default defineConfig({
+  projectId: '639q1d',
   videosFolder: 'cypress/videos',
   screenshotsFolder: 'cypress/screenshots',
   fixturesFolder: 'cypress/fixtures',

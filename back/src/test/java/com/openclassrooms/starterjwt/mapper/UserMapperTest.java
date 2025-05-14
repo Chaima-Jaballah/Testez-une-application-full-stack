@@ -113,4 +113,20 @@ class UserMapperTest {
 	    assertEquals("b@example.com", list.get(1).getEmail());
 	    assertEquals("Martin", list.get(1).getLastName());
 	}
+	
+	@Test
+	void testToEntityList_empty() {
+	    List<User> result = userMapper.toEntity(List.of());
+	    assertNotNull(result);
+	    assertTrue(result.isEmpty());
+	}
+	
+	@Test
+	void testToDtoList_empty() {
+	    List<UserDto> result = userMapper.toDto(List.of());
+	    assertNotNull(result);
+	    assertTrue(result.isEmpty());
+	}
+
+
 }

@@ -1,0 +1,27 @@
+name: Run Cypress Tests
+
+on: [push, pull_request]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./front
+
+      - name: Run Cypress tests on Cypress Cloud
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: ./front
+          record: true
+          key: ${{ secrets.CYPRESS_RECORD_KEY }}

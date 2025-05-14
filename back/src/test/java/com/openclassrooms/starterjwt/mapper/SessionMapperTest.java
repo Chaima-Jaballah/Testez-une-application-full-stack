@@ -146,4 +146,12 @@ class SessionMapperTest {
 		assertEquals(1, dto.getUsers().size());
 		assertEquals(77L, dto.getUsers().get(0));
 	}
+	
+	@Test
+	void testToEntityList_empty() {
+	    List<Session> result = sessionMapper.toEntity(Collections.emptyList());
+	    assertNotNull(result);
+	    assertTrue(result.isEmpty());
+	}
+
 }

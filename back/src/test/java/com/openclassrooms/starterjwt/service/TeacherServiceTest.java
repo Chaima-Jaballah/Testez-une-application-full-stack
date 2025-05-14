@@ -62,4 +62,10 @@ class TeacherServiceTest {
 
         assertNull(result);
     }
+    
+    public Teacher findById(Long id) {
+        Optional<Teacher> teacher = teacherRepository.findById(id);
+        return teacher.orElse(null);
+    }
+
 }

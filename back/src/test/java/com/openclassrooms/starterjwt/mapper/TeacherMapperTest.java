@@ -72,4 +72,12 @@ class TeacherMapperTest {
         assertEquals("B", entities.get(1).getFirstName());
         assertEquals("X", entities.get(0).getLastName());
     }
+    
+    @Test
+    void testToEntityList_empty() {
+        List<Teacher> result = teacherMapper.toEntity(List.of());
+        assertNotNull(result);
+        assertTrue(result.isEmpty());
+    }
+
 }

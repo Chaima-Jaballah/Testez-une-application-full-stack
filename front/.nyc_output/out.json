@@ -16,11 +16,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\polyfills.ts"
       ],
       "sourcesContent": [
-        "/**\n * This file includes polyfills needed by Angular and is loaded before the app.\n * You can add your own extra polyfills to this file.\n *\n * This file is divided into 2 sections:\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\n *      file.\n *\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\n * automatically update themselves. This includes recent versions of Safari, Chrome (including\n * Opera), Edge on the desktop, and iOS and Chrome on mobile.\n *\n * Learn more in https://angular.io/guide/browser-support\n */\n\n/***************************************************************************************************\n * BROWSER POLYFILLS\n */\n\n/**\n * By default, zone.js will patch all possible macroTask and DomEvents\n * user can disable parts of macroTask/DomEvents patch by setting following flags\n * because those flags need to be set before `zone.js` being loaded, and webpack\n * will put import in the top of bundle, so user need to create a separate file\n * in this directory (for example: zone-flags.ts), and put the following flags\n * into that file, and then add the following code before importing zone.js.\n * import './zone-flags';\n *\n * The flags allowed in zone-flags.ts are listed here.\n *\n * The following flags will work for all browsers.\n *\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\n *\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\n *\n *  (window as any).__Zone_enable_cross_context_check = true;\n *\n */\n\n/***************************************************************************************************\n * Zone JS is required by default for Angular itself.\n */\nimport 'zone.js';  // Included with Angular CLI.\n\n\n/***************************************************************************************************\n * APPLICATION IMPORTS\n */\n"
+        "/**\r\n * This file includes polyfills needed by Angular and is loaded before the app.\r\n * You can add your own extra polyfills to this file.\r\n *\r\n * This file is divided into 2 sections:\r\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\r\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\r\n *      file.\r\n *\r\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\r\n * automatically update themselves. This includes recent versions of Safari, Chrome (including\r\n * Opera), Edge on the desktop, and iOS and Chrome on mobile.\r\n *\r\n * Learn more in https://angular.io/guide/browser-support\r\n */\r\n\r\n/***************************************************************************************************\r\n * BROWSER POLYFILLS\r\n */\r\n\r\n/**\r\n * By default, zone.js will patch all possible macroTask and DomEvents\r\n * user can disable parts of macroTask/DomEvents patch by setting following flags\r\n * because those flags need to be set before `zone.js` being loaded, and webpack\r\n * will put import in the top of bundle, so user need to create a separate file\r\n * in this directory (for example: zone-flags.ts), and put the following flags\r\n * into that file, and then add the following code before importing zone.js.\r\n * import './zone-flags';\r\n *\r\n * The flags allowed in zone-flags.ts are listed here.\r\n *\r\n * The following flags will work for all browsers.\r\n *\r\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\r\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\r\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\r\n *\r\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\r\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\r\n *\r\n *  (window as any).__Zone_enable_cross_context_check = true;\r\n *\r\n */\r\n\r\n/***************************************************************************************************\r\n * Zone JS is required by default for Angular itself.\r\n */\r\nimport 'zone.js';  // Included with Angular CLI.\r\n\r\n\r\n/***************************************************************************************************\r\n * APPLICATION IMPORTS\r\n */\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "51736183eff135a190dddf3f9beefa9900fe5d5a"
+    "hash": "3a8d9cf4885b3944b937b1874816e17a97c50b9e"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts",
@@ -385,35 +385,35 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 36,
-      "2": 36,
-      "3": 1856,
-      "4": 18,
-      "5": 18,
-      "6": 18,
-      "7": 4,
-      "8": 4,
-      "9": 4,
-      "10": 22,
-      "11": 36,
-      "12": 36,
-      "13": 36,
-      "14": 36
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 321,
+      "4": 3,
+      "5": 3,
+      "6": 3,
+      "7": 2,
+      "8": 2,
+      "9": 2,
+      "10": 5,
+      "11": 8,
+      "12": 8,
+      "13": 8,
+      "14": 8
     },
     "f": {
-      "0": 36,
-      "1": 36,
-      "2": 1856,
-      "3": 18,
-      "4": 4,
-      "5": 22,
-      "6": 36
+      "0": 8,
+      "1": 8,
+      "2": 321,
+      "3": 3,
+      "4": 2,
+      "5": 5,
+      "6": 8
     },
     "b": {
       "0": [
-        36,
-        36
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -441,11 +441,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\session.service.ts"
       ],
       "sourcesContent": [
-        "import { Injectable } from '@angular/core';\nimport { BehaviorSubject, Observable } from 'rxjs';\nimport { SessionInformation } from '../interfaces/sessionInformation.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class SessionService {\n\n  public isLogged = false;\n  public sessionInformation: SessionInformation | undefined;\n\n  private isLoggedSubject = new BehaviorSubject<boolean>(this.isLogged);\n\n  public $isLogged(): Observable<boolean> {\n    return this.isLoggedSubject.asObservable();\n  }\n\n  public logIn(user: SessionInformation): void {\n    this.sessionInformation = user;\n    this.isLogged = true;\n    this.next();\n  }\n\n  public logOut(): void {\n    this.sessionInformation = undefined;\n    this.isLogged = false;\n    this.next();\n  }\n\n  private next(): void {\n    this.isLoggedSubject.next(this.isLogged);\n  }\n}\n"
+        "import { Injectable } from '@angular/core';\r\nimport { BehaviorSubject, Observable } from 'rxjs';\r\nimport { SessionInformation } from '../interfaces/sessionInformation.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class SessionService {\r\n\r\n  public isLogged = false;\r\n  public sessionInformation: SessionInformation | undefined;\r\n\r\n  private isLoggedSubject = new BehaviorSubject<boolean>(this.isLogged);\r\n\r\n  public $isLogged(): Observable<boolean> {\r\n    return this.isLoggedSubject.asObservable();\r\n  }\r\n\r\n  public logIn(user: SessionInformation): void {\r\n    this.sessionInformation = user;\r\n    this.isLogged = true;\r\n    this.next();\r\n  }\r\n\r\n  public logOut(): void {\r\n    this.sessionInformation = undefined;\r\n    this.isLogged = false;\r\n    this.next();\r\n  }\r\n\r\n  private next(): void {\r\n    this.isLoggedSubject.next(this.isLogged);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "8f7c9f76109dcabc3c8704bf79f933aff21a2080"
+    "hash": "15c6ca31bb8de02b3e5baf3b71fc1634bd43120e"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts",
@@ -702,27 +702,27 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 3,
-      "2": 3,
-      "3": 3,
-      "4": 1,
-      "5": 36,
-      "6": 3,
-      "7": 36,
-      "8": 36
+      "0": 8,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 8,
+      "6": 0,
+      "7": 8,
+      "8": 8
     },
     "f": {
-      "0": 36,
-      "1": 3,
-      "2": 3,
-      "3": 1,
-      "4": 3
+      "0": 8,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
     },
     "b": {
       "0": [
-        3,
-        3
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -746,11 +746,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\user.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { User } from '../interfaces/user.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class UserService {\n\n  private pathService = 'api/user';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public getById(id: string): Observable<User> {\n    return this.httpClient.get<User>(`${this.pathService}/${id}`);\n  }\n\n  public delete(id: string): Observable<any> {\n    return this.httpClient.delete(`${this.pathService}/${id}`);\n  }\n}\n"
+        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { User } from '../interfaces/user.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class UserService {\r\n\r\n  private pathService = 'api/user';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public getById(id: string): Observable<User> {\r\n    return this.httpClient.get<User>(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public delete(id: string): Observable<any> {\r\n    return this.httpClient.delete(`${this.pathService}/${id}`);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "73a9ea85bbe125e3d3ed7699dd3206473267b7be"
+    "hash": "0b065dd390d8c6a75ac0b2e94b5a2d10eac82d98"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts",
@@ -2229,139 +2229,139 @@
       }
     },
     "s": {
-      "0": 6,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 7,
-      "5": 1,
-      "6": 1,
-      "7": 1,
-      "8": 1,
-      "9": 1,
-      "10": 1,
-      "11": 1,
-      "12": 1,
-      "13": 1,
-      "14": 1,
-      "15": 1,
-      "16": 1,
-      "17": 1,
-      "18": 1,
-      "19": 1,
-      "20": 13,
-      "21": 3,
-      "22": 3,
-      "23": 3,
-      "24": 3,
-      "25": 3,
-      "26": 3,
-      "27": 3,
-      "28": 3,
-      "29": 3,
-      "30": 3,
-      "31": 3,
-      "32": 3,
-      "33": 3,
-      "34": 3,
-      "35": 3,
-      "36": 3,
-      "37": 3,
-      "38": 3,
-      "39": 3,
-      "40": 3,
-      "41": 3,
-      "42": 13,
-      "43": 10,
-      "44": 10,
-      "45": 10,
-      "46": 10,
-      "47": 10,
-      "48": 10,
-      "49": 10,
-      "50": 10,
-      "51": 10,
-      "52": 10,
-      "53": 10,
-      "54": 10,
-      "55": 10,
-      "56": 36,
-      "57": 3,
-      "58": 3,
-      "59": 3,
-      "60": 3,
-      "61": 3,
-      "62": 3,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 8,
+      "57": 0,
+      "58": 0,
+      "59": 0,
+      "60": 0,
+      "61": 0,
+      "62": 0,
       "63": 0,
-      "64": 1,
-      "65": 1,
-      "66": 1,
-      "67": 1,
-      "68": 36,
-      "69": 3,
-      "70": 36,
-      "71": 28,
-      "72": 3,
-      "73": 3,
+      "64": 0,
+      "65": 0,
+      "66": 0,
+      "67": 0,
+      "68": 8,
+      "69": 0,
+      "70": 8,
+      "71": 0,
+      "72": 0,
+      "73": 0,
       "74": 0,
-      "75": 3,
-      "76": 3,
-      "77": 3,
-      "78": 3,
-      "79": 3,
-      "80": 3,
-      "81": 3,
-      "82": 3,
-      "83": 3,
-      "84": 28,
-      "85": 25,
-      "86": 25,
-      "87": 36
+      "75": 0,
+      "76": 0,
+      "77": 0,
+      "78": 0,
+      "79": 0,
+      "80": 0,
+      "81": 0,
+      "82": 0,
+      "83": 0,
+      "84": 0,
+      "85": 0,
+      "86": 0,
+      "87": 8
     },
     "f": {
-      "0": 6,
-      "1": 7,
-      "2": 1,
-      "3": 13,
-      "4": 36,
-      "5": 3,
-      "6": 3,
-      "7": 3,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 8,
+      "5": 0,
+      "6": 0,
+      "7": 0,
       "8": 0,
-      "9": 1,
-      "10": 1,
-      "11": 3,
-      "12": 28,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
       "13": 0
     },
     "b": {
       "0": [
-        2,
-        4
+        0,
+        0
       ],
       "1": [
-        1,
-        6
+        0,
+        0
       ],
       "2": [
-        3,
-        10
+        0,
+        0
       ],
       "3": [
-        10,
-        3
+        0,
+        0
       ],
       "4": [
-        3,
-        3
+        0,
+        0
       ],
       "5": [
-        3,
-        25
+        0,
+        0
       ],
       "6": [
-        25,
-        3
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -2404,12 +2404,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\components\\me\\me.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"m3\">\n  <mat-card>\n    <mat-card-title>\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\n        <button mat-icon-button (click)=\"back()\">\n          <mat-icon>arrow_back</mat-icon>\n        </button>\n        <h1>User information</h1>\n      </div>\n    </mat-card-title>\n    <mat-card-content>\n      <div *ngIf=\"user\" fxLayout=\"column\" fxLayoutAlign=\"start center\">\n        <p>Name: {{ user.firstName }} {{ user.lastName | uppercase }}</p>\n        <p>Email: {{ user.email }}</p>\n        <p *ngIf=\"user.admin\" class=\"my2\">You are admin</p>\n        <div *ngIf=\"!user.admin\" fxLayout=\"column\" class=\"my2\" fxLayoutAlign=\"center center\">\n          <p>Delete my account:</p>\n          <button mat-raised-button color=\"warn\" (click)=\"delete()\">\n            <mat-icon>delete</mat-icon>\n            <span class=\"ml1\">Detail</span>\n          </button>\n        </div>\n        <div fxLayoutAlign=\"space-between center\" class=\"p2 w100\">\n\n          <p><i>Create at: </i> {{ user.createdAt | date: 'longDate'}}</p>\n          <p><i>Last update: </i> {{ user.updatedAt| date: 'longDate'}}</p>\n        </div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n</div>\n",
-        "import { Component, OnInit } from '@angular/core';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { Router } from '@angular/router';\nimport { User } from '../../interfaces/user.interface';\nimport { SessionService } from '../../services/session.service';\nimport { UserService } from '../../services/user.service';\n\n@Component({\n  selector: 'app-me',\n  templateUrl: './me.component.html',\n  styleUrls: ['./me.component.scss']\n})\nexport class MeComponent implements OnInit {\n\n  public user: User | undefined;\n\n  constructor(private router: Router,\n              private sessionService: SessionService,\n              private matSnackBar: MatSnackBar,\n              private userService: UserService) {\n  }\n\n  public ngOnInit(): void {\n    this.userService\n      .getById(this.sessionService.sessionInformation!.id.toString())\n      .subscribe((user: User) => this.user = user);\n  }\n\n  public back(): void {\n    window.history.back();\n  }\n\n  public delete(): void {\n    this.userService\n      .delete(this.sessionService.sessionInformation!.id.toString())\n      .subscribe((_) => {\n        this.matSnackBar.open(\"Your account has been deleted !\", 'Close', { duration: 3000 });\n        this.sessionService.logOut();\n        this.router.navigate(['/']);\n      })\n  }\n\n}\n"
+        "<div class=\"m3\">\r\n  <mat-card>\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n        <button mat-icon-button (click)=\"back()\">\r\n          <mat-icon>arrow_back</mat-icon>\r\n        </button>\r\n        <h1>User information</h1>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-content>\r\n      <div *ngIf=\"user\" fxLayout=\"column\" fxLayoutAlign=\"start center\">\r\n        <p>Name: {{ user.firstName }} {{ user.lastName | uppercase }}</p>\r\n        <p>Email: {{ user.email }}</p>\r\n        <p *ngIf=\"user.admin\" class=\"my2\">You are admin</p>\r\n        <div *ngIf=\"!user.admin\" fxLayout=\"column\" class=\"my2\" fxLayoutAlign=\"center center\">\r\n          <p>Delete my account:</p>\r\n          <button mat-raised-button color=\"warn\" (click)=\"delete()\">\r\n            <mat-icon>delete</mat-icon>\r\n            <span class=\"ml1\">Detail</span>\r\n          </button>\r\n        </div>\r\n        <div fxLayoutAlign=\"space-between center\" class=\"p2 w100\">\r\n\r\n          <p><i>Create at: </i> {{ user.createdAt | date: 'longDate'}}</p>\r\n          <p><i>Last update: </i> {{ user.updatedAt| date: 'longDate'}}</p>\r\n        </div>\r\n      </div>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n",
+        "import { Component, OnInit } from '@angular/core';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { Router } from '@angular/router';\r\nimport { User } from '../../interfaces/user.interface';\r\nimport { SessionService } from '../../services/session.service';\r\nimport { UserService } from '../../services/user.service';\r\n\r\n@Component({\r\n  selector: 'app-me',\r\n  templateUrl: './me.component.html',\r\n  styleUrls: ['./me.component.scss']\r\n})\r\nexport class MeComponent implements OnInit {\r\n\r\n  public user: User | undefined;\r\n\r\n  constructor(private router: Router,\r\n              private sessionService: SessionService,\r\n              private matSnackBar: MatSnackBar,\r\n              private userService: UserService) {\r\n  }\r\n\r\n  public ngOnInit(): void {\r\n    this.userService\r\n      .getById(this.sessionService.sessionInformation!.id.toString())\r\n      .subscribe((user: User) => this.user = user);\r\n  }\r\n\r\n  public back(): void {\r\n    window.history.back();\r\n  }\r\n\r\n  public delete(): void {\r\n    this.userService\r\n      .delete(this.sessionService.sessionInformation!.id.toString())\r\n      .subscribe((_) => {\r\n        this.matSnackBar.open(\"Your account has been deleted !\", 'Close', { duration: 3000 });\r\n        this.sessionService.logOut();\r\n        this.router.navigate(['/']);\r\n      })\r\n  }\r\n\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "b134292b1e61996ca784b3d01c8f07e9f97264ef"
+    "hash": "db754cb364cd1de83dc61a69005e02678902b069"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.ts",
@@ -2654,29 +2654,29 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 36,
-      "2": 1,
-      "3": 36,
-      "4": 3,
-      "5": 1,
-      "6": 1,
-      "7": 1,
-      "8": 36
+      "0": 8,
+      "1": 8,
+      "2": 0,
+      "3": 8,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 8
     },
     "f": {
-      "0": 36,
-      "1": 1,
-      "2": 3
+      "0": 8,
+      "1": 0,
+      "2": 0
     },
     "b": {
       "0": [
-        1,
-        1
+        0,
+        0
       ],
       "1": [
-        1,
-        2
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -2697,12 +2697,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\components\\not-found\\not-found.component.html"
       ],
       "sourcesContent": [
-        "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-not-found',\n  templateUrl: './not-found.component.html',\n  styleUrls: ['./not-found.component.scss']\n})\nexport class NotFoundComponent {\n}\n",
-        "<div class=\"flex justify-center mt3\">\n        <h1>Page not found !</h1>\n</div>"
+        "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-not-found',\r\n  templateUrl: './not-found.component.html',\r\n  styleUrls: ['./not-found.component.scss']\r\n})\r\nexport class NotFoundComponent {\r\n}\r\n",
+        "<div class=\"flex justify-center mt3\">\r\n        <h1>Page not found !</h1>\r\n</div>"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "ba552e2328cddd2989efb9e45881c8cb4a42217f"
+    "hash": "6c066a86da380ddc6e954a6b8e5e55a49c34beef"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts",
@@ -2991,32 +2991,32 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 23,
-      "2": 23,
-      "3": 26,
-      "4": 5,
-      "5": 5,
-      "6": 21,
-      "7": 36,
-      "8": 23,
-      "9": 36,
-      "10": 36
+      "0": 8,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 3,
+      "7": 8,
+      "8": 3,
+      "9": 8,
+      "10": 8
     },
     "f": {
-      "0": 36,
-      "1": 23,
-      "2": 26,
-      "3": 23
+      "0": 8,
+      "1": 3,
+      "2": 3,
+      "3": 3
     },
     "b": {
       "0": [
-        5,
-        21
+        0,
+        3
       ],
       "1": [
-        23,
-        23
+        3,
+        3
       ]
     },
     "inputSourceMap": {
@@ -3040,11 +3040,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\auth.guard.ts"
       ],
       "sourcesContent": [
-        "import {Injectable} from \"@angular/core\";\nimport {CanActivate, Router} from \"@angular/router\"; \nimport { SessionService } from \"../services/session.service\";\n\n@Injectable({providedIn: 'root'})\nexport class AuthGuard implements CanActivate {\n\n  constructor( \n    private router: Router,\n    private sessionService: SessionService,\n  ) {\n  }\n\n  public canActivate(): boolean {\n    if (!this.sessionService.isLogged) {\n      this.router.navigate(['login']);\n      return false;\n    }\n    return true;\n  }\n}"
+        "import {Injectable} from \"@angular/core\";\r\nimport {CanActivate, Router} from \"@angular/router\"; \r\nimport { SessionService } from \"../services/session.service\";\r\n\r\n@Injectable({providedIn: 'root'})\r\nexport class AuthGuard implements CanActivate {\r\n\r\n  constructor( \r\n    private router: Router,\r\n    private sessionService: SessionService,\r\n  ) {\r\n  }\r\n\r\n  public canActivate(): boolean {\r\n    if (!this.sessionService.isLogged) {\r\n      this.router.navigate(['login']);\r\n      return false;\r\n    }\r\n    return true;\r\n  }\r\n}"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "143def621c70f09860aabe3d4e3bd981ad9746b6"
+    "hash": "81ec80ed78d2e870b7d6e241d4a8e0c0358a75eb"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts",
@@ -3333,32 +3333,32 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 35,
-      "2": 35,
-      "3": 39,
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 10,
       "4": 0,
       "5": 0,
-      "6": 39,
-      "7": 36,
-      "8": 35,
-      "9": 36,
-      "10": 36
+      "6": 10,
+      "7": 8,
+      "8": 8,
+      "9": 8,
+      "10": 8
     },
     "f": {
-      "0": 36,
-      "1": 35,
-      "2": 39,
-      "3": 35
+      "0": 8,
+      "1": 8,
+      "2": 10,
+      "3": 8
     },
     "b": {
       "0": [
         0,
-        39
+        10
       ],
       "1": [
-        35,
-        35
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -3382,11 +3382,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\guards\\unauth.guard.ts"
       ],
       "sourcesContent": [
-        "import {Injectable} from \"@angular/core\";\nimport {CanActivate, Router} from \"@angular/router\"; \nimport { SessionService } from \"../services/session.service\";\n\n@Injectable({providedIn: 'root'})\nexport class UnauthGuard implements CanActivate {\n\n  constructor( \n    private router: Router,\n    private sessionService: SessionService,\n  ) {\n  }\n\n  public canActivate(): boolean {\n    if (this.sessionService.isLogged) {\n      this.router.navigate(['rentals']);\n      return false;\n    }\n    return true;\n  }\n}"
+        "import {Injectable} from \"@angular/core\";\r\nimport {CanActivate, Router} from \"@angular/router\"; \r\nimport { SessionService } from \"../services/session.service\";\r\n\r\n@Injectable({providedIn: 'root'})\r\nexport class UnauthGuard implements CanActivate {\r\n\r\n  constructor( \r\n    private router: Router,\r\n    private sessionService: SessionService,\r\n  ) {\r\n  }\r\n\r\n  public canActivate(): boolean {\r\n    if (this.sessionService.isLogged) {\r\n      this.router.navigate(['rentals']);\r\n      return false;\r\n    }\r\n    return true;\r\n  }\r\n}"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f59620ceb5796482a0ccf1799d5e57e621390808"
+    "hash": "bd26c06f04387dc15764c42cc9a1818dae6d3c64"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts",
@@ -3687,30 +3687,30 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 36,
-      "2": 36,
-      "3": 20,
-      "4": 20,
-      "5": 36,
-      "6": 36,
-      "7": 36,
-      "8": 36,
-      "9": 36,
-      "10": 36
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 3,
+      "4": 3,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8,
+      "9": 8,
+      "10": 8
     },
     "f": {
-      "0": 36,
-      "1": 36,
-      "2": 20,
-      "3": 20,
-      "4": 36,
-      "5": 36
+      "0": 8,
+      "1": 8,
+      "2": 3,
+      "3": 3,
+      "4": 8,
+      "5": 8
     },
     "b": {
       "0": [
-        36,
-        36
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -3740,11 +3740,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app-routing.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { MeComponent } from './components/me/me.component';\nimport { NotFoundComponent } from './components/not-found/not-found.component';\nimport { AuthGuard } from './guards/auth.guard';\nimport { UnauthGuard } from './guards/unauth.guard';\n\nconst routes: Routes = [\n  {\n    path: '',\n    canActivate: [UnauthGuard],\n    loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule)\n  },\n  {\n    path: 'sessions',\n    canActivate: [AuthGuard],\n    loadChildren: () => import('./features/sessions/sessions.module').then(m => m.SessionsModule)\n  },\n  {\n    path: 'me',\n    canActivate: [AuthGuard],\n    component: MeComponent\n  },\n  { path: '404', component: NotFoundComponent },\n  { path: '**', redirectTo: '404' }\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule {\n}\n"
+        "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { MeComponent } from './components/me/me.component';\r\nimport { NotFoundComponent } from './components/not-found/not-found.component';\r\nimport { AuthGuard } from './guards/auth.guard';\r\nimport { UnauthGuard } from './guards/unauth.guard';\r\n\r\nconst routes: Routes = [\r\n  {\r\n    path: '',\r\n    canActivate: [UnauthGuard],\r\n    loadChildren: () => import('./features/auth/auth.module').then(m => m.AuthModule)\r\n  },\r\n  {\r\n    path: 'sessions',\r\n    canActivate: [AuthGuard],\r\n    loadChildren: () => import('./features/sessions/sessions.module').then(m => m.SessionsModule)\r\n  },\r\n  {\r\n    path: 'me',\r\n    canActivate: [AuthGuard],\r\n    component: MeComponent\r\n  },\r\n  { path: '404', component: NotFoundComponent },\r\n  { path: '**', redirectTo: '404' }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forRoot(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AppRoutingModule {\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "a60962d3d24cfdbb6ecd46b44c002627ff5c2b02"
+    "hash": "023adeb8fce1264a95defebfa4cf0eaf85e2311a"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts",
@@ -4001,27 +4001,27 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 36,
-      "2": 36,
-      "3": 3,
-      "4": 20,
-      "5": 36,
-      "6": 36,
-      "7": 36,
-      "8": 36
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 0,
+      "4": 5,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8
     },
     "f": {
-      "0": 36,
-      "1": 36,
-      "2": 3,
-      "3": 20,
-      "4": 36
+      "0": 8,
+      "1": 8,
+      "2": 0,
+      "3": 5,
+      "4": 8
     },
     "b": {
       "0": [
-        36,
-        36
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -4046,11 +4046,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\services\\auth.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { LoginRequest } from '../interfaces/loginRequest.interface';\nimport { RegisterRequest } from '../interfaces/registerRequest.interface';\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class AuthService {\n\n  private pathService = 'api/auth';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public register(registerRequest: RegisterRequest): Observable<void> {\n    return this.httpClient.post<void>(`${this.pathService}/register`, registerRequest);\n  }\n\n  public login(loginRequest: LoginRequest): Observable<SessionInformation> {\n    return this.httpClient.post<SessionInformation>(`${this.pathService}/login`, loginRequest);\n  }\n}\n"
+        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { LoginRequest } from '../interfaces/loginRequest.interface';\r\nimport { RegisterRequest } from '../interfaces/registerRequest.interface';\r\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class AuthService {\r\n\r\n  private pathService = 'api/auth';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public register(registerRequest: RegisterRequest): Observable<void> {\r\n    return this.httpClient.post<void>(`${this.pathService}/register`, registerRequest);\r\n  }\r\n\r\n  public login(loginRequest: LoginRequest): Observable<SessionInformation> {\r\n    return this.httpClient.post<SessionInformation>(`${this.pathService}/login`, loginRequest);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "36343ada61df5a7c40d5f7a6c36ed2642530f207"
+    "hash": "8b5e90846886c0404d95205a2a56fb39303d8946"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts",
@@ -4937,86 +4937,86 @@
       }
     },
     "s": {
-      "0": 645,
-      "1": 18,
-      "2": 18,
-      "3": 18,
-      "4": 18,
-      "5": 18,
-      "6": 18,
-      "7": 18,
-      "8": 18,
-      "9": 18,
-      "10": 3,
-      "11": 3,
-      "12": 3,
-      "13": 18,
-      "14": 18,
-      "15": 1269,
-      "16": 40,
-      "17": 40,
-      "18": 40,
-      "19": 40,
-      "20": 40,
-      "21": 40,
-      "22": 36,
-      "23": 36,
-      "24": 36,
-      "25": 36,
-      "26": 1856,
-      "27": 3,
-      "28": 3,
-      "29": 36,
-      "30": 36,
-      "31": 36,
-      "32": 1892,
-      "33": 36,
-      "34": 36,
-      "35": 36,
-      "36": 36,
-      "37": 36,
-      "38": 36,
-      "39": 36,
-      "40": 36,
-      "41": 36,
-      "42": 36,
-      "43": 1892,
-      "44": 1856,
-      "45": 1856,
-      "46": 1856,
-      "47": 36
+      "0": 29,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 3,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 3,
+      "14": 3,
+      "15": 305,
+      "16": 10,
+      "17": 10,
+      "18": 10,
+      "19": 10,
+      "20": 10,
+      "21": 10,
+      "22": 8,
+      "23": 8,
+      "24": 8,
+      "25": 8,
+      "26": 321,
+      "27": 2,
+      "28": 2,
+      "29": 8,
+      "30": 8,
+      "31": 8,
+      "32": 329,
+      "33": 8,
+      "34": 8,
+      "35": 8,
+      "36": 8,
+      "37": 8,
+      "38": 8,
+      "39": 8,
+      "40": 8,
+      "41": 8,
+      "42": 8,
+      "43": 329,
+      "44": 321,
+      "45": 321,
+      "46": 321,
+      "47": 8
     },
     "f": {
-      "0": 645,
-      "1": 3,
-      "2": 1269,
-      "3": 36,
-      "4": 36,
-      "5": 1856,
-      "6": 3,
-      "7": 36,
-      "8": 1892
+      "0": 29,
+      "1": 2,
+      "2": 305,
+      "3": 8,
+      "4": 8,
+      "5": 321,
+      "6": 2,
+      "7": 8,
+      "8": 329
     },
     "b": {
       "0": [
-        18,
-        627
+        3,
+        26
       ],
       "1": [
-        40,
-        1229
+        10,
+        295
       ],
       "2": [
-        36,
-        36
+        8,
+        8
       ],
       "3": [
-        36,
-        1856
+        8,
+        321
       ],
       "4": [
-        1856,
-        36
+        321,
+        8
       ]
     },
     "inputSourceMap": {
@@ -5046,12 +5046,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"app\">\n  <mat-toolbar color=\"primary\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n    <span>Yoga app</span>\n    <div *ngIf=\"$isLogged() | async; else notLogged\">\n      <span routerLink=\"sessions\" class=\"link\">Sessions</span>\n      <span routerLink=\"me\" class=\"link\">Account</span>\n      <span (click)=\"logout()\" class=\"link\">Logout</span>\n    </div>\n    <ng-template #notLogged>\n      <div>\n        <span routerLink=\"login\" class=\"link\">Login</span>\n        <span routerLink=\"register\" class=\"link\">Register</span>\n      </div>\n    </ng-template>\n  </mat-toolbar>\n  <div>\n    <router-outlet></router-outlet>\n  </div>\n</div>\n",
-        "import { Component, OnInit } from '@angular/core';\nimport { Router } from '@angular/router';\nimport { Observable } from 'rxjs';\nimport { AuthService } from './features/auth/services/auth.service';\nimport { SessionInformation } from './interfaces/sessionInformation.interface';\nimport { SessionService } from './services/session.service';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  constructor(\n    private authService: AuthService,\n    private router: Router,\n    private sessionService: SessionService) {\n  }\n\n  public $isLogged(): Observable<boolean> {\n    return this.sessionService.$isLogged();\n  }\n\n  public logout(): void {\n    this.sessionService.logOut();\n    this.router.navigate([''])\n  }\n}\n"
+        "<div class=\"app\">\r\n  <mat-toolbar color=\"primary\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n    <span>Yoga app</span>\r\n    <div *ngIf=\"$isLogged() | async; else notLogged\">\r\n      <span routerLink=\"sessions\" class=\"link\">Sessions</span>\r\n      <span routerLink=\"me\" class=\"link\">Account</span>\r\n      <span (click)=\"logout()\" class=\"link\">Logout</span>\r\n    </div>\r\n    <ng-template #notLogged>\r\n      <div>\r\n        <span routerLink=\"login\" class=\"link\">Login</span>\r\n        <span routerLink=\"register\" class=\"link\">Register</span>\r\n      </div>\r\n    </ng-template>\r\n  </mat-toolbar>\r\n  <div>\r\n    <router-outlet></router-outlet>\r\n  </div>\r\n</div>\r\n",
+        "import { Component, OnInit } from '@angular/core';\r\nimport { Router } from '@angular/router';\r\nimport { Observable } from 'rxjs';\r\nimport { AuthService } from './features/auth/services/auth.service';\r\nimport { SessionInformation } from './interfaces/sessionInformation.interface';\r\nimport { SessionService } from './services/session.service';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n  templateUrl: './app.component.html',\r\n  styleUrls: ['./app.component.scss']\r\n})\r\nexport class AppComponent {\r\n  constructor(\r\n    private authService: AuthService,\r\n    private router: Router,\r\n    private sessionService: SessionService) {\r\n  }\r\n\r\n  public $isLogged(): Observable<boolean> {\r\n    return this.sessionService.$isLogged();\r\n  }\r\n\r\n  public logout(): void {\r\n    this.sessionService.logOut();\r\n    this.router.navigate([''])\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "c443aaa067eb10e24eeae203c9f59292ea720b32"
+    "hash": "6dd147b0eb830a3d2b6fd3c6e73a29d6b4ca2ff9"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts",
@@ -5320,30 +5320,30 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 23,
-      "2": 74,
-      "3": 51,
-      "4": 74,
-      "5": 36,
-      "6": 23,
-      "7": 36,
-      "8": 36
+      "0": 8,
+      "1": 5,
+      "2": 8,
+      "3": 3,
+      "4": 8,
+      "5": 8,
+      "6": 5,
+      "7": 8,
+      "8": 8
     },
     "f": {
-      "0": 36,
-      "1": 23,
-      "2": 74,
-      "3": 23
+      "0": 8,
+      "1": 5,
+      "2": 8,
+      "3": 5
     },
     "b": {
       "0": [
-        51,
-        23
+        3,
+        5
       ],
       "1": [
-        23,
-        23
+        5,
+        5
       ]
     },
     "inputSourceMap": {
@@ -5374,11 +5374,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\interceptors\\jwt.interceptor.ts"
       ],
       "sourcesContent": [
-        "import { HttpHandler, HttpInterceptor, HttpRequest } from \"@angular/common/http\";\nimport { Injectable } from \"@angular/core\";\nimport { SessionService } from '../services/session.service';\n\n@Injectable({ providedIn: 'root' })\nexport class JwtInterceptor implements HttpInterceptor {\n  constructor(private sessionService: SessionService) {}\n\n  public intercept(request: HttpRequest<any>, next: HttpHandler) {\n    if (this.sessionService.isLogged) {\n      request = request.clone({\n        setHeaders: {\n          Authorization: `Bearer ${this.sessionService.sessionInformation!.token}`,\n        },\n      });\n    }\n    return next.handle(request);\n  }\n}\n"
+        "import { HttpHandler, HttpInterceptor, HttpRequest } from \"@angular/common/http\";\r\nimport { Injectable } from \"@angular/core\";\r\nimport { SessionService } from '../services/session.service';\r\n\r\n@Injectable({ providedIn: 'root' })\r\nexport class JwtInterceptor implements HttpInterceptor {\r\n  constructor(private sessionService: SessionService) {}\r\n\r\n  public intercept(request: HttpRequest<any>, next: HttpHandler) {\r\n    if (this.sessionService.isLogged) {\r\n      request = request.clone({\r\n        setHeaders: {\r\n          Authorization: `Bearer ${this.sessionService.sessionInformation!.token}`,\r\n        },\r\n      });\r\n    }\r\n    return next.handle(request);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "51b471bcbca517ee25641dc46360ef1a2e86a617"
+    "hash": "4617f265ecb3f2830774d2522707a39d8ff9eee2"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts",
@@ -5543,22 +5543,22 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 36,
-      "2": 36,
-      "3": 36,
-      "4": 36,
-      "5": 36,
-      "6": 36
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8
     },
     "f": {
-      "0": 36,
-      "1": 36
+      "0": 8,
+      "1": 8
     },
     "b": {
       "0": [
-        36,
-        36
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -5591,11 +5591,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\app.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\nimport { NotFoundComponent } from './components/not-found/not-found.component';\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatIconModule } from '@angular/material/icon';\nimport { MatToolbarModule } from '@angular/material/toolbar';\nimport { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';\nimport { JwtInterceptor } from './interceptors/jwt.interceptor';\nimport { MatCardModule } from '@angular/material/card';\nimport { FlexLayoutModule } from '@angular/flex-layout';\nimport { MeComponent } from './components/me/me.component';\n\nconst materialModule = [\n  MatButtonModule,\n  MatCardModule,\n  MatIconModule,\n  MatSnackBarModule,\n  MatToolbarModule,\n]\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    NotFoundComponent,\n    MeComponent,\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    BrowserAnimationsModule, \n    FlexLayoutModule,\n    HttpClientModule,\n    ...materialModule\n  ],\n  providers: [\n    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },\n  ],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
+        "import { NgModule } from '@angular/core';\r\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\n\r\nimport { AppRoutingModule } from './app-routing.module';\r\nimport { AppComponent } from './app.component';\r\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\r\nimport { NotFoundComponent } from './components/not-found/not-found.component';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatIconModule } from '@angular/material/icon';\r\nimport { MatToolbarModule } from '@angular/material/toolbar';\r\nimport { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';\r\nimport { JwtInterceptor } from './interceptors/jwt.interceptor';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { MeComponent } from './components/me/me.component';\r\n\r\nconst materialModule = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatIconModule,\r\n  MatSnackBarModule,\r\n  MatToolbarModule,\r\n]\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    NotFoundComponent,\r\n    MeComponent,\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    AppRoutingModule,\r\n    BrowserAnimationsModule, \r\n    FlexLayoutModule,\r\n    HttpClientModule,\r\n    ...materialModule\r\n  ],\r\n  providers: [\r\n    { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },\r\n  ],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "d55a3dd67235e8a117c65d273b64cde04696dc2c"
+    "hash": "ca1b52d18ce6b89609c3974b146e80ae327396f7"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts",
@@ -5614,7 +5614,7 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 36
+      "0": 8
     },
     "f": {},
     "b": {},
@@ -5631,11 +5631,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\environments\\environment.ts"
       ],
       "sourcesContent": [
-        "export const environment = {\n  baseUrl: 'localhost:8080/api/',\n  production: false\n};\n"
+        "export const environment = {\r\n  baseUrl: 'localhost:8080/api/',\r\n  production: false\r\n};\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "159350be9a0109d9b5ad24700968f0bb55e46729"
+    "hash": "a8c495049b7e0deb619d9cda34d177975696426f"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\main.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\main.ts",
@@ -5746,9 +5746,9 @@
       }
     },
     "s": {
-      "0": 36,
+      "0": 8,
       "1": 0,
-      "2": 36,
+      "2": 8,
       "3": 0
     },
     "f": {
@@ -5757,7 +5757,7 @@
     "b": {
       "0": [
         0,
-        36
+        8
       ]
     },
     "inputSourceMap": {
@@ -5780,11 +5780,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\main.ts"
       ],
       "sourcesContent": [
-        "import { enableProdMode } from '@angular/core';\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\n\nimport { AppModule } from './app/app.module';\nimport { environment } from './environments/environment';\n\nif (environment.production) {\n  enableProdMode();\n}\n\nplatformBrowserDynamic().bootstrapModule(AppModule)\n  .catch(err => console.error(err));\n"
+        "import { enableProdMode } from '@angular/core';\r\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\r\n\r\nimport { AppModule } from './app/app.module';\r\nimport { environment } from './environments/environment';\r\n\r\nif (environment.production) {\r\n  enableProdMode();\r\n}\r\n\r\nplatformBrowserDynamic().bootstrapModule(AppModule)\r\n  .catch(err => console.error(err));\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "251eacd285a957a137fd3e5105e7ee7aa4f4b42d"
+    "hash": "b5870ba5cf39d27ab242a825dfa717a9afe637d7"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.ts",
@@ -6825,71 +6825,71 @@
       "1": 2,
       "2": 2,
       "3": 2,
-      "4": 36,
-      "5": 31,
-      "6": 31,
-      "7": 31,
-      "8": 31,
-      "9": 31,
-      "10": 31,
-      "11": 31,
-      "12": 20,
-      "13": 20,
-      "14": 18,
-      "15": 18,
+      "4": 8,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8,
+      "9": 8,
+      "10": 8,
+      "11": 8,
+      "12": 5,
+      "13": 5,
+      "14": 3,
+      "15": 3,
       "16": 2,
-      "17": 36,
-      "18": 31,
-      "19": 36,
-      "20": 936,
-      "21": 31,
-      "22": 31,
-      "23": 31,
-      "24": 31,
-      "25": 31,
-      "26": 20,
-      "27": 31,
-      "28": 31,
-      "29": 31,
-      "30": 31,
-      "31": 31,
-      "32": 31,
-      "33": 31,
-      "34": 36,
-      "35": 31,
-      "36": 31,
-      "37": 31,
-      "38": 31,
-      "39": 31,
-      "40": 31,
-      "41": 31,
-      "42": 31,
-      "43": 936,
-      "44": 905,
-      "45": 905,
-      "46": 905,
-      "47": 905,
-      "48": 905,
-      "49": 905,
-      "50": 905,
-      "51": 905,
-      "52": 905,
-      "53": 905,
-      "54": 905,
-      "55": 905,
-      "56": 36
+      "17": 8,
+      "18": 8,
+      "19": 8,
+      "20": 275,
+      "21": 8,
+      "22": 8,
+      "23": 8,
+      "24": 8,
+      "25": 8,
+      "26": 5,
+      "27": 8,
+      "28": 8,
+      "29": 8,
+      "30": 8,
+      "31": 8,
+      "32": 8,
+      "33": 8,
+      "34": 6,
+      "35": 8,
+      "36": 8,
+      "37": 8,
+      "38": 8,
+      "39": 8,
+      "40": 8,
+      "41": 8,
+      "42": 8,
+      "43": 275,
+      "44": 267,
+      "45": 267,
+      "46": 267,
+      "47": 267,
+      "48": 267,
+      "49": 267,
+      "50": 267,
+      "51": 267,
+      "52": 267,
+      "53": 267,
+      "54": 267,
+      "55": 267,
+      "56": 8
     },
     "f": {
       "0": 6,
-      "1": 36,
-      "2": 31,
-      "3": 20,
-      "4": 18,
+      "1": 8,
+      "2": 8,
+      "3": 5,
+      "4": 3,
       "5": 2,
-      "6": 31,
-      "7": 936,
-      "8": 20,
-      "9": 36
+      "6": 8,
+      "7": 275,
+      "8": 5,
+      "9": 6
     },
     "b": {
       "0": [
@@ -6897,24 +6897,24 @@
         4
       ],
       "1": [
-        31,
-        31
+        8,
+        8
       ],
       "2": [
-        31,
-        905
+        8,
+        267
       ],
       "3": [
-        905,
-        31
+        267,
+        8
       ],
       "4": [
-        869,
-        36
+        261,
+        6
       ],
       "5": [
-        869,
-        36
+        261,
+        6
       ]
     },
     "inputSourceMap": {
@@ -6959,12 +6959,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\login\\login.component.html"
       ],
       "sourcesContent": [
-        "import { Component } from '@angular/core';\nimport { FormBuilder, Validators } from '@angular/forms';\nimport { Router } from '@angular/router';\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\nimport { SessionService } from 'src/app/services/session.service';\nimport { LoginRequest } from '../../interfaces/loginRequest.interface';\nimport { AuthService } from '../../services/auth.service';\n\n@Component({\n  selector: 'app-login',\n  templateUrl: './login.component.html',\n  styleUrls: ['./login.component.scss']\n})\nexport class LoginComponent {\n  public hide = true;\n  public onError = false;\n\n  public form = this.fb.group({\n    email: [\n      '',\n      [\n        Validators.required,\n        Validators.email\n      ]\n    ],\n    password: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3)\n      ]\n    ]\n  });\n\n  constructor(private authService: AuthService,\n              private fb: FormBuilder,\n              private router: Router,\n              private sessionService: SessionService) {\n  }\n\n  public submit(): void {\n    const loginRequest = this.form.value as LoginRequest;\n    this.authService.login(loginRequest).subscribe({\n      next: (response: SessionInformation) => {\n        this.sessionService.logIn(response);\n        this.router.navigate(['/sessions']);\n      },\n      error: error => this.onError = true,\n    });\n  }\n}\n",
-        "<div class=\"login\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\n    <mat-card>\n        <mat-card-header fxLayoutAlign=\"center center\">\n            <mat-card-title>Login</mat-card-title>\n        </mat-card-header>\n        <form class=\"login-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\n            <mat-card-content fxLayout=\"column\">\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"Email\" formControlName=\"email\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input matInput [type]=\"hide ? 'password' : 'text'\" placeholder=\"Password\"\n                        formControlName=\"password\">\n                    <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\"\n                        [attr.aria-pressed]=\"hide\">\n                        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\n                    </button>\n                </mat-form-field>\n            </mat-card-content>\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\n            <p *ngIf=\"onError\" class=\"error\">An error occurred</p>\n        </form>\n    </mat-card>\n</div>"
+        "import { Component } from '@angular/core';\r\nimport { FormBuilder, Validators } from '@angular/forms';\r\nimport { Router } from '@angular/router';\r\nimport { SessionInformation } from 'src/app/interfaces/sessionInformation.interface';\r\nimport { SessionService } from 'src/app/services/session.service';\r\nimport { LoginRequest } from '../../interfaces/loginRequest.interface';\r\nimport { AuthService } from '../../services/auth.service';\r\n\r\n@Component({\r\n  selector: 'app-login',\r\n  templateUrl: './login.component.html',\r\n  styleUrls: ['./login.component.scss']\r\n})\r\nexport class LoginComponent {\r\n  public hide = true;\r\n  public onError = false;\r\n\r\n  public form = this.fb.group({\r\n    email: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.email\r\n      ]\r\n    ],\r\n    password: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3)\r\n      ]\r\n    ]\r\n  });\r\n\r\n  constructor(private authService: AuthService,\r\n              private fb: FormBuilder,\r\n              private router: Router,\r\n              private sessionService: SessionService) {\r\n  }\r\n\r\n  public submit(): void {\r\n    const loginRequest = this.form.value as LoginRequest;\r\n    this.authService.login(loginRequest).subscribe({\r\n      next: (response: SessionInformation) => {\r\n        this.sessionService.logIn(response);\r\n        this.router.navigate(['/sessions']);\r\n      },\r\n      error: error => this.onError = true,\r\n    });\r\n  }\r\n}\r\n",
+        "<div class=\"login\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\r\n    <mat-card>\r\n        <mat-card-header fxLayoutAlign=\"center center\">\r\n            <mat-card-title>Login</mat-card-title>\r\n        </mat-card-header>\r\n        <form class=\"login-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\r\n            <mat-card-content fxLayout=\"column\">\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"Email\" formControlName=\"email\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input matInput [type]=\"hide ? 'password' : 'text'\" placeholder=\"Password\"\r\n                        formControlName=\"password\">\r\n                    <button mat-icon-button matSuffix (click)=\"hide = !hide\" [attr.aria-label]=\"'Hide password'\"\r\n                        [attr.aria-pressed]=\"hide\">\r\n                        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>\r\n                    </button>\r\n                </mat-form-field>\r\n            </mat-card-content>\r\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\r\n            <p *ngIf=\"onError\" class=\"error\">An error occurred</p>\r\n        </form>\r\n    </mat-card>\r\n</div>"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "2e9258eb0c623786ea19f3a6f1c2108efdd4fcba"
+    "hash": "14e18023ef7af3496078a2b09d84cf7cdec145f3"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.ts",
@@ -7825,83 +7825,83 @@
       }
     },
     "s": {
-      "0": 6,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 36,
-      "5": 6,
-      "6": 6,
-      "7": 6,
-      "8": 6,
-      "9": 6,
-      "10": 3,
-      "11": 3,
-      "12": 1,
-      "13": 2,
-      "14": 36,
-      "15": 6,
-      "16": 36,
-      "17": 205,
-      "18": 6,
-      "19": 6,
-      "20": 6,
-      "21": 6,
-      "22": 6,
-      "23": 3,
-      "24": 6,
-      "25": 6,
-      "26": 6,
-      "27": 6,
-      "28": 6,
-      "29": 6,
-      "30": 6,
-      "31": 6,
-      "32": 6,
-      "33": 6,
-      "34": 6,
-      "35": 6,
-      "36": 6,
-      "37": 6,
-      "38": 6,
-      "39": 6,
-      "40": 6,
-      "41": 205,
-      "42": 199,
-      "43": 199,
-      "44": 199,
-      "45": 199,
-      "46": 199,
-      "47": 199,
-      "48": 36
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 8,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 8,
+      "15": 0,
+      "16": 8,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 8
     },
     "f": {
-      "0": 6,
-      "1": 36,
-      "2": 6,
-      "3": 3,
-      "4": 1,
-      "5": 2,
-      "6": 6,
-      "7": 205,
-      "8": 3
+      "0": 0,
+      "1": 8,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
     },
     "b": {
       "0": [
-        2,
-        4
+        0,
+        0
       ],
       "1": [
-        6,
-        6
+        0,
+        0
       ],
       "2": [
-        6,
-        199
+        0,
+        0
       ],
       "3": [
-        199,
-        6
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -7947,12 +7947,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\components\\register\\register.component.html"
       ],
       "sourcesContent": [
-        "import { Component } from '@angular/core';\nimport { FormBuilder, Validators } from '@angular/forms';\nimport { Router } from '@angular/router';\nimport { AuthService } from '../../services/auth.service';\nimport { RegisterRequest } from '../../interfaces/registerRequest.interface';\n\n@Component({\n  selector: 'app-register',\n  templateUrl: './register.component.html',\n  styleUrls: ['./register.component.scss']\n})\nexport class RegisterComponent {\n\n  public onError = false;\n\n  public form = this.fb.group({\n    email: [\n      '',\n      [\n        Validators.required,\n        Validators.email\n      ]\n    ],\n    firstName: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3),\n        Validators.max(20)\n      ]\n    ],\n    lastName: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3),\n        Validators.max(20)\n      ]\n    ],\n    password: [\n      '',\n      [\n        Validators.required,\n        Validators.min(3),\n        Validators.max(40)\n      ]\n    ]\n  });\n\n  constructor(private authService: AuthService,\n              private fb: FormBuilder,\n              private router: Router) {\n  }\n\n  public submit(): void {\n    const registerRequest = this.form.value as RegisterRequest;\n    this.authService.register(registerRequest).subscribe({\n        next: (_: void) => this.router.navigate(['/login']),\n        error: _ => this.onError = true,\n      }\n    );\n  }\n\n}\n",
-        "<div class=\"register\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\n    <mat-card>\n        <mat-card-header fxLayoutAlign=\"center center\">\n            <mat-card-title>Register</mat-card-title>\n        </mat-card-header>\n        <form class=\"register-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\n            <mat-card-content fxLayout=\"column\">\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"First name\" formControlName=\"firstName\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"Last name\" formControlName=\"lastName\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"Email\" formControlName=\"email\">\n                </mat-form-field>\n                <mat-form-field fxFlex>\n                    <input matInput placeholder=\"Password\" formControlName=\"password\">\n                </mat-form-field>\n            </mat-card-content>\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\n            <span *ngIf=\"onError\" class=\"error ml2\">An error occurred</span>\n        </form>\n    </mat-card>\n</div>\n"
+        "import { Component } from '@angular/core';\r\nimport { FormBuilder, Validators } from '@angular/forms';\r\nimport { Router } from '@angular/router';\r\nimport { AuthService } from '../../services/auth.service';\r\nimport { RegisterRequest } from '../../interfaces/registerRequest.interface';\r\n\r\n@Component({\r\n  selector: 'app-register',\r\n  templateUrl: './register.component.html',\r\n  styleUrls: ['./register.component.scss']\r\n})\r\nexport class RegisterComponent {\r\n\r\n  public onError = false;\r\n\r\n  public form = this.fb.group({\r\n    email: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.email\r\n      ]\r\n    ],\r\n    firstName: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3),\r\n        Validators.max(20)\r\n      ]\r\n    ],\r\n    lastName: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3),\r\n        Validators.max(20)\r\n      ]\r\n    ],\r\n    password: [\r\n      '',\r\n      [\r\n        Validators.required,\r\n        Validators.min(3),\r\n        Validators.max(40)\r\n      ]\r\n    ]\r\n  });\r\n\r\n  constructor(private authService: AuthService,\r\n              private fb: FormBuilder,\r\n              private router: Router) {\r\n  }\r\n\r\n  public submit(): void {\r\n    const registerRequest = this.form.value as RegisterRequest;\r\n    this.authService.register(registerRequest).subscribe({\r\n        next: (_: void) => this.router.navigate(['/login']),\r\n        error: _ => this.onError = true,\r\n      }\r\n    );\r\n  }\r\n\r\n}\r\n",
+        "<div class=\"register\" fxLayout=\"row\" fxLayoutAlign=\"center center\">\r\n    <mat-card>\r\n        <mat-card-header fxLayoutAlign=\"center center\">\r\n            <mat-card-title>Register</mat-card-title>\r\n        </mat-card-header>\r\n        <form class=\"register-form\" [formGroup]=\"form\" (ngSubmit)=\"submit()\">\r\n            <mat-card-content fxLayout=\"column\">\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"First name\" formControlName=\"firstName\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"Last name\" formControlName=\"lastName\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"Email\" formControlName=\"email\">\r\n                </mat-form-field>\r\n                <mat-form-field fxFlex>\r\n                    <input matInput placeholder=\"Password\" formControlName=\"password\">\r\n                </mat-form-field>\r\n            </mat-card-content>\r\n            <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"form.invalid\">Submit</button>\r\n            <span *ngIf=\"onError\" class=\"error ml2\">An error occurred</span>\r\n        </form>\r\n    </mat-card>\r\n</div>\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "57fd2c4650158f0584c3ca14fdac9989e98032eb"
+    "hash": "d126cea093c69405099585d187916fb23a1abf32"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts",
@@ -8117,22 +8117,22 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 36,
-      "2": 36,
-      "3": 36,
-      "4": 36,
-      "5": 36,
-      "6": 36
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8
     },
     "f": {
-      "0": 36,
-      "1": 36
+      "0": 8,
+      "1": 8
     },
     "b": {
       "0": [
-        36,
-        36
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -8154,11 +8154,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth-routing.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { LoginComponent } from './components/login/login.component';\nimport { RegisterComponent } from './components/register/register.component';\n\n\nconst routes: Routes = [\n  { title: 'Login', path: 'login', component: LoginComponent },\n  { title: 'Register', path: 'register', component: RegisterComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class AuthRoutingModule { }\n"
+        "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { LoginComponent } from './components/login/login.component';\r\nimport { RegisterComponent } from './components/register/register.component';\r\n\r\n\r\nconst routes: Routes = [\r\n  { title: 'Login', path: 'login', component: LoginComponent },\r\n  { title: 'Register', path: 'register', component: RegisterComponent }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forChild(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AuthRoutingModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "1448927339252afc806418a3a96463ef0883b0e9"
+    "hash": "83a5acd3eb47d350d0a35d1467cbf16ef8b324f4"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts",
@@ -8323,22 +8323,22 @@
       }
     },
     "s": {
-      "0": 36,
-      "1": 36,
-      "2": 36,
-      "3": 36,
-      "4": 36,
-      "5": 36,
-      "6": 36
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 8
     },
     "f": {
-      "0": 36,
-      "1": 36
+      "0": 8,
+      "1": 8
     },
     "b": {
       "0": [
-        36,
-        36
+        8,
+        8
       ]
     },
     "inputSourceMap": {
@@ -8363,11 +8363,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\auth\\auth.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { AuthRoutingModule } from './auth-routing.module';\nimport { RegisterComponent } from './components/register/register.component';\nimport { LoginComponent } from './components/login/login.component';\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field';\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatInputModule } from '@angular/material/input';\nimport { FlexLayoutModule } from '@angular/flex-layout';\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\nimport { MatIconModule } from '@angular/material/icon';\n\nconst materialModules = [\n  MatButtonModule,\n  MatCardModule,\n  MatFormFieldModule,\n  MatIconModule,\n  MatInputModule\n]\n\n@NgModule({\n  declarations: [\n    RegisterComponent,\n    LoginComponent\n  ],\n  imports: [\n    AuthRoutingModule,\n    CommonModule,\n    FlexLayoutModule,\n    FormsModule,\n    ReactiveFormsModule,\n    ...materialModules\n  ]\n})\nexport class AuthModule { }\n"
+        "import { NgModule } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { AuthRoutingModule } from './auth-routing.module';\r\nimport { RegisterComponent } from './components/register/register.component';\r\nimport { LoginComponent } from './components/login/login.component';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { MatFormFieldModule } from '@angular/material/form-field';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatInputModule } from '@angular/material/input';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { FormsModule, ReactiveFormsModule } from '@angular/forms';\r\nimport { MatIconModule } from '@angular/material/icon';\r\n\r\nconst materialModules = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatFormFieldModule,\r\n  MatIconModule,\r\n  MatInputModule\r\n]\r\n\r\n@NgModule({\r\n  declarations: [\r\n    RegisterComponent,\r\n    LoginComponent\r\n  ],\r\n  imports: [\r\n    AuthRoutingModule,\r\n    CommonModule,\r\n    FlexLayoutModule,\r\n    FormsModule,\r\n    ReactiveFormsModule,\r\n    ...materialModules\r\n  ]\r\n})\r\nexport class AuthModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "30a8a1b89d0efcc8c92ba76f0b93feed2c4f4d24"
+    "hash": "e024be717c6b8b37fb50c7dc618c9d866c34efe3"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts",
@@ -8794,37 +8794,37 @@
       }
     },
     "s": {
-      "0": 20,
-      "1": 18,
-      "2": 18,
-      "3": 23,
-      "4": 9,
-      "5": 1,
-      "6": 2,
-      "7": 2,
-      "8": 2,
-      "9": 1,
-      "10": 20,
-      "11": 18,
-      "12": 20,
-      "13": 20
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3
     },
     "f": {
-      "0": 20,
-      "1": 18,
-      "2": 23,
-      "3": 9,
-      "4": 1,
-      "5": 2,
-      "6": 2,
-      "7": 2,
-      "8": 1,
-      "9": 18
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 3
     },
     "b": {
       "0": [
-        18,
-        18
+        3,
+        3
       ]
     },
     "inputSourceMap": {
@@ -8857,11 +8857,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\services\\session-api.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { Session } from '../interfaces/session.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class SessionApiService {\n\n  private pathService = 'api/session';\n\n  constructor(private httpClient: HttpClient) {\n  }\n\n  public all(): Observable<Session[]> {\n    return this.httpClient.get<Session[]>(this.pathService);\n  }\n\n  public detail(id: string): Observable<Session> {\n    return this.httpClient.get<Session>(`${this.pathService}/${id}`);\n  }\n\n  public delete(id: string): Observable<any> {\n    return this.httpClient.delete(`${this.pathService}/${id}`);\n  }\n\n  public create(session: Session): Observable<Session> {\n    return this.httpClient.post<Session>(this.pathService, session);\n  }\n\n  public update(id: string, session: Session): Observable<Session> {\n    return this.httpClient.put<Session>(`${this.pathService}/${id}`, session);\n  }\n\n  public participate(id: string, userId: string): Observable<void> {\n    return this.httpClient.post<void>(`${this.pathService}/${id}/participate/${userId}`, null);\n  }\n\n  public unParticipate(id: string, userId: string): Observable<void> {\n    return this.httpClient.delete<void>(`${this.pathService}/${id}/participate/${userId}`);\n  }\n\n}\n"
+        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { Session } from '../interfaces/session.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class SessionApiService {\r\n\r\n  private pathService = 'api/session';\r\n\r\n  constructor(private httpClient: HttpClient) {\r\n  }\r\n\r\n  public all(): Observable<Session[]> {\r\n    return this.httpClient.get<Session[]>(this.pathService);\r\n  }\r\n\r\n  public detail(id: string): Observable<Session> {\r\n    return this.httpClient.get<Session>(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public delete(id: string): Observable<any> {\r\n    return this.httpClient.delete(`${this.pathService}/${id}`);\r\n  }\r\n\r\n  public create(session: Session): Observable<Session> {\r\n    return this.httpClient.post<Session>(this.pathService, session);\r\n  }\r\n\r\n  public update(id: string, session: Session): Observable<Session> {\r\n    return this.httpClient.put<Session>(`${this.pathService}/${id}`, session);\r\n  }\r\n\r\n  public participate(id: string, userId: string): Observable<void> {\r\n    return this.httpClient.post<void>(`${this.pathService}/${id}/participate/${userId}`, null);\r\n  }\r\n\r\n  public unParticipate(id: string, userId: string): Observable<void> {\r\n    return this.httpClient.delete<void>(`${this.pathService}/${id}/participate/${userId}`);\r\n  }\r\n\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "2fe1e4a3383e3ace9edf6f620fe9fddb9cae41c7"
+    "hash": "29b49173a8de435683b792ca1b5f578a550277bf"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts",
@@ -9118,27 +9118,27 @@
       }
     },
     "s": {
-      "0": 20,
-      "1": 8,
-      "2": 8,
-      "3": 4,
-      "4": 3,
-      "5": 20,
-      "6": 8,
-      "7": 20,
-      "8": 20
+      "0": 3,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3,
+      "6": 0,
+      "7": 3,
+      "8": 3
     },
     "f": {
-      "0": 20,
-      "1": 8,
-      "2": 4,
-      "3": 3,
-      "4": 8
+      "0": 3,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
     },
     "b": {
       "0": [
-        8,
-        8
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -9162,11 +9162,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\services\\teacher.service.ts"
       ],
       "sourcesContent": [
-        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { Teacher } from '../interfaces/teacher.interface';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class TeacherService {\n\n  private pathService = 'api/teacher';\n\n  constructor(private httpClient: HttpClient) { }\n\n  public all(): Observable<Teacher[]> {\n    return this.httpClient.get<Teacher[]>(this.pathService);\n  }\n\n  public detail(id: string): Observable<Teacher> {\n    return this.httpClient.get<Teacher>(`${this.pathService}/${id}`);\n  }\n}\n"
+        "import { HttpClient } from '@angular/common/http';\r\nimport { Injectable } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { Teacher } from '../interfaces/teacher.interface';\r\n\r\n@Injectable({\r\n  providedIn: 'root'\r\n})\r\nexport class TeacherService {\r\n\r\n  private pathService = 'api/teacher';\r\n\r\n  constructor(private httpClient: HttpClient) { }\r\n\r\n  public all(): Observable<Teacher[]> {\r\n    return this.httpClient.get<Teacher[]>(this.pathService);\r\n  }\r\n\r\n  public detail(id: string): Observable<Teacher> {\r\n    return this.httpClient.get<Teacher>(`${this.pathService}/${id}`);\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "f58dc1a1d5c48a640da105cf22007e2c244464c7"
+    "hash": "852975f50bcc98fe884a73c4b5e3fb9543184480"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts",
@@ -11973,257 +11973,257 @@
       }
     },
     "s": {
-      "0": 15,
-      "1": 1,
-      "2": 1,
-      "3": 1,
-      "4": 1,
-      "5": 1,
-      "6": 1,
-      "7": 1,
-      "8": 1,
-      "9": 1,
-      "10": 1,
-      "11": 1,
-      "12": 1,
-      "13": 42,
-      "14": 3,
-      "15": 3,
-      "16": 3,
-      "17": 2,
-      "18": 2,
-      "19": 2,
-      "20": 3,
-      "21": 3,
-      "22": 3,
-      "23": 3,
-      "24": 3,
-      "25": 3,
-      "26": 22,
-      "27": 3,
-      "28": 3,
-      "29": 3,
-      "30": 1,
-      "31": 1,
-      "32": 1,
-      "33": 3,
-      "34": 3,
-      "35": 3,
-      "36": 3,
-      "37": 3,
-      "38": 3,
-      "39": 61,
-      "40": 3,
-      "41": 3,
-      "42": 3,
-      "43": 3,
-      "44": 61,
-      "45": 58,
-      "46": 58,
-      "47": 58,
-      "48": 58,
-      "49": 58,
-      "50": 32,
-      "51": 2,
-      "52": 2,
-      "53": 2,
-      "54": 2,
-      "55": 2,
-      "56": 2,
-      "57": 2,
-      "58": 32,
-      "59": 30,
-      "60": 30,
-      "61": 30,
-      "62": 76,
-      "63": 4,
-      "64": 4,
-      "65": 4,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "57": 0,
+      "58": 0,
+      "59": 0,
+      "60": 0,
+      "61": 0,
+      "62": 0,
+      "63": 0,
+      "64": 0,
+      "65": 0,
       "66": 0,
       "67": 0,
       "68": 0,
-      "69": 4,
-      "70": 4,
-      "71": 4,
-      "72": 4,
-      "73": 4,
-      "74": 4,
-      "75": 4,
-      "76": 4,
-      "77": 4,
-      "78": 4,
-      "79": 4,
-      "80": 4,
-      "81": 4,
-      "82": 4,
-      "83": 4,
-      "84": 4,
-      "85": 4,
-      "86": 4,
-      "87": 4,
-      "88": 4,
-      "89": 4,
-      "90": 4,
-      "91": 4,
-      "92": 4,
-      "93": 4,
-      "94": 4,
-      "95": 4,
-      "96": 4,
-      "97": 4,
-      "98": 4,
-      "99": 4,
-      "100": 4,
-      "101": 4,
-      "102": 4,
-      "103": 4,
-      "104": 4,
-      "105": 4,
-      "106": 4,
-      "107": 4,
-      "108": 4,
-      "109": 4,
-      "110": 4,
-      "111": 4,
-      "112": 4,
-      "113": 4,
-      "114": 4,
-      "115": 76,
-      "116": 72,
-      "117": 72,
-      "118": 72,
-      "119": 72,
-      "120": 72,
-      "121": 72,
-      "122": 72,
-      "123": 72,
-      "124": 72,
-      "125": 72,
-      "126": 72,
-      "127": 72,
-      "128": 72,
-      "129": 72,
-      "130": 72,
-      "131": 72,
-      "132": 72,
-      "133": 72,
-      "134": 72,
-      "135": 20,
-      "136": 4,
-      "137": 4,
-      "138": 4,
-      "139": 4,
-      "140": 4,
-      "141": 4,
-      "142": 4,
-      "143": 4,
-      "144": 4,
-      "145": 4,
-      "146": 4,
-      "147": 4,
-      "148": 4,
+      "69": 0,
+      "70": 0,
+      "71": 0,
+      "72": 0,
+      "73": 0,
+      "74": 0,
+      "75": 0,
+      "76": 0,
+      "77": 0,
+      "78": 0,
+      "79": 0,
+      "80": 0,
+      "81": 0,
+      "82": 0,
+      "83": 0,
+      "84": 0,
+      "85": 0,
+      "86": 0,
+      "87": 0,
+      "88": 0,
+      "89": 0,
+      "90": 0,
+      "91": 0,
+      "92": 0,
+      "93": 0,
+      "94": 0,
+      "95": 0,
+      "96": 0,
+      "97": 0,
+      "98": 0,
+      "99": 0,
+      "100": 0,
+      "101": 0,
+      "102": 0,
+      "103": 0,
+      "104": 0,
+      "105": 0,
+      "106": 0,
+      "107": 0,
+      "108": 0,
+      "109": 0,
+      "110": 0,
+      "111": 0,
+      "112": 0,
+      "113": 0,
+      "114": 0,
+      "115": 0,
+      "116": 0,
+      "117": 0,
+      "118": 0,
+      "119": 0,
+      "120": 0,
+      "121": 0,
+      "122": 0,
+      "123": 0,
+      "124": 0,
+      "125": 0,
+      "126": 0,
+      "127": 0,
+      "128": 0,
+      "129": 0,
+      "130": 0,
+      "131": 0,
+      "132": 0,
+      "133": 0,
+      "134": 0,
+      "135": 3,
+      "136": 0,
+      "137": 0,
+      "138": 0,
+      "139": 0,
+      "140": 0,
+      "141": 0,
+      "142": 0,
+      "143": 0,
+      "144": 0,
+      "145": 0,
+      "146": 0,
+      "147": 0,
+      "148": 0,
       "149": 0,
-      "150": 1,
-      "151": 1,
-      "152": 1,
-      "153": 2,
-      "154": 2,
-      "155": 1,
-      "156": 1,
-      "157": 7,
-      "158": 7,
-      "159": 7,
-      "160": 3,
-      "161": 7,
-      "162": 2,
-      "163": 20,
-      "164": 4,
-      "165": 20,
-      "166": 96,
-      "167": 4,
-      "168": 4,
-      "169": 4,
-      "170": 96,
-      "171": 92,
-      "172": 92,
-      "173": 20
+      "150": 0,
+      "151": 0,
+      "152": 0,
+      "153": 0,
+      "154": 0,
+      "155": 0,
+      "156": 0,
+      "157": 0,
+      "158": 0,
+      "159": 0,
+      "160": 0,
+      "161": 0,
+      "162": 0,
+      "163": 3,
+      "164": 0,
+      "165": 3,
+      "166": 0,
+      "167": 0,
+      "168": 0,
+      "169": 0,
+      "170": 0,
+      "171": 0,
+      "172": 0,
+      "173": 3
     },
     "f": {
-      "0": 15,
-      "1": 1,
-      "2": 42,
-      "3": 2,
-      "4": 22,
-      "5": 1,
-      "6": 61,
-      "7": 32,
-      "8": 76,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
       "9": 0,
-      "10": 20,
-      "11": 4,
-      "12": 4,
+      "10": 3,
+      "11": 0,
+      "12": 0,
       "13": 0,
-      "14": 1,
-      "15": 1,
-      "16": 2,
-      "17": 2,
-      "18": 1,
-      "19": 1,
-      "20": 7,
-      "21": 7,
-      "22": 3,
-      "23": 2,
-      "24": 4,
-      "25": 96
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0
     },
     "b": {
       "0": [
-        1,
-        14
+        0,
+        0
       ],
       "1": [
-        3,
-        39
+        0,
+        0
       ],
       "2": [
-        3,
-        19
+        0,
+        0
       ],
       "3": [
-        3,
-        58
+        0,
+        0
       ],
       "4": [
-        58,
-        3
+        0,
+        0
       ],
       "5": [
-        2,
-        30
+        0,
+        0
       ],
       "6": [
-        30,
-        2
+        0,
+        0
       ],
       "7": [
-        4,
-        72
+        0,
+        0
       ],
       "8": [
-        72,
-        4
+        0,
+        0
       ],
       "9": [
-        4,
-        4
+        0,
+        0
       ],
       "10": [
-        4,
-        92
+        0,
+        0
       ],
       "11": [
-        92,
-        4
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -12283,12 +12283,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\detail\\detail.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"m3\">\n  <mat-card *ngIf=\"session\">\n    <mat-card-title>\n      <div fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\n          <button mat-icon-button (click)=\"back()\">\n            <mat-icon>arrow_back</mat-icon>\n          </button>\n          <h1>{{session.name | titlecase}}</h1>\n        </div>\n        <div>\n          <button *ngIf=\"isAdmin\" mat-raised-button color=\"warn\" (click)=\"delete()\">\n            <mat-icon>delete</mat-icon>\n            <span class=\"ml1\">Delete</span>\n          </button>\n          <div *ngIf=\"!isAdmin\">\n            <button *ngIf=\"!isParticipate\" mat-raised-button color=\"primary\" (click)=\"participate()\">\n              <mat-icon>person_add</mat-icon>\n              <span class=\"ml1\">Participate</span>\n            </button>\n            <button *ngIf=\"isParticipate\" mat-raised-button color=\"warn\" (click)=\"unParticipate()\">\n              <mat-icon>person_remove</mat-icon>\n              <span class=\"ml1\">Do not participate</span>\n            </button>\n\n          </div>\n\n\n        </div>\n      </div>\n    </mat-card-title>\n    <mat-card-subtitle *ngIf=\"teacher\">\n      <div fxLayoutAlign=\"start center\" class=\"ml3\">\n        <mat-icon>\n          people\n        </mat-icon>\n        <span class=\"ml1\">{{ teacher.firstName }} {{ teacher.lastName | uppercase }}</span>\n      </div>\n    </mat-card-subtitle>\n    <div mat-card-image fxLayoutAlign=\"center center\">\n      <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\n    </div>\n    <mat-card-content>\n      <div class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div fxLayoutAlign=\"start center\">\n          <mat-icon>\n            group\n          </mat-icon>\n          <span class=\"ml1\">{{ session.users.length }} attendees</span>\n        </div>\n        <div fxLayoutAlign=\"start center\">\n          <mat-icon>\n            calendar_month\n          </mat-icon>\n          <span class=\"ml1\">{{ session.date | date: 'longDate'}}</span>\n        </div>\n      </div>\n      <div class=\"description\">\n        <p>Description:</p>\n        {{ session.description }}\n        <br>\n      </div>\n      <div class=\"date\" class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n        <div class=\"created\"><i>Create at: </i> {{ session.createdAt| date: 'longDate'}}</div>\n        <div class=\"updated\"><i>Last update: </i> {{ session.updatedAt| date: 'longDate'}}</div>\n      </div>\n    </mat-card-content>\n  </mat-card>\n</div>\n",
-        "import { Component, OnInit } from '@angular/core';\nimport { FormBuilder } from '@angular/forms';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { Teacher } from '../../../../interfaces/teacher.interface';\nimport { SessionService } from '../../../../services/session.service';\nimport { TeacherService } from '../../../../services/teacher.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-detail',\n  templateUrl: './detail.component.html',\n  styleUrls: ['./detail.component.scss']\n})\nexport class DetailComponent implements OnInit {\n  public session: Session | undefined;\n  public teacher: Teacher | undefined;\n\n  public isParticipate = false;\n  public isAdmin = false;\n\n  public sessionId: string;\n  public userId: string;\n\n  constructor(\n    private route: ActivatedRoute,\n    private fb: FormBuilder,\n    private sessionService: SessionService,\n    private sessionApiService: SessionApiService,\n    private teacherService: TeacherService,\n    private matSnackBar: MatSnackBar,\n    private router: Router) {\n    this.sessionId = this.route.snapshot.paramMap.get('id')!;\n    this.isAdmin = this.sessionService.sessionInformation!.admin;\n    this.userId = this.sessionService.sessionInformation!.id.toString();\n  }\n\n  public ngOnInit(): void {\n    this.fetchSession();\n  }\n\n  public back() {\n    window.history.back();\n  }\n\n  public delete(): void {\n    this.sessionApiService\n      .delete(this.sessionId)\n      .subscribe((_: any) => {\n          this.matSnackBar.open('Session deleted !', 'Close', { duration: 3000 });\n          this.router.navigate(['sessions']);\n        }\n      );\n  }\n\n  public participate(): void {\n    this.sessionApiService.participate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  public unParticipate(): void {\n    this.sessionApiService.unParticipate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\n  }\n\n  private fetchSession(): void {\n    this.sessionApiService\n      .detail(this.sessionId)\n      .subscribe((session: Session) => {\n        this.session = session;\n        this.isParticipate = session.users.some(u => u === this.sessionService.sessionInformation!.id);\n        this.teacherService\n          .detail(session.teacher_id.toString())\n          .subscribe((teacher: Teacher) => this.teacher = teacher);\n      });\n  }\n\n}\n"
+        "<div class=\"m3\">\r\n  <mat-card *ngIf=\"session\">\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n          <button mat-icon-button (click)=\"back()\">\r\n            <mat-icon>arrow_back</mat-icon>\r\n          </button>\r\n          <h1>{{session.name | titlecase}}</h1>\r\n        </div>\r\n        <div>\r\n          <button *ngIf=\"isAdmin\" mat-raised-button color=\"warn\" (click)=\"delete()\">\r\n            <mat-icon>delete</mat-icon>\r\n            <span class=\"ml1\">Delete</span>\r\n          </button>\r\n          <div *ngIf=\"!isAdmin\">\r\n            <button *ngIf=\"!isParticipate\" mat-raised-button color=\"primary\" (click)=\"participate()\">\r\n              <mat-icon>person_add</mat-icon>\r\n              <span class=\"ml1\">Participate</span>\r\n            </button>\r\n            <button *ngIf=\"isParticipate\" mat-raised-button color=\"warn\" (click)=\"unParticipate()\">\r\n              <mat-icon>person_remove</mat-icon>\r\n              <span class=\"ml1\">Do not participate</span>\r\n            </button>\r\n\r\n          </div>\r\n\r\n\r\n        </div>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-subtitle *ngIf=\"teacher\">\r\n      <div fxLayoutAlign=\"start center\" class=\"ml3\">\r\n        <mat-icon>\r\n          people\r\n        </mat-icon>\r\n        <span class=\"ml1\">{{ teacher.firstName }} {{ teacher.lastName | uppercase }}</span>\r\n      </div>\r\n    </mat-card-subtitle>\r\n    <div mat-card-image fxLayoutAlign=\"center center\">\r\n      <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\r\n    </div>\r\n    <mat-card-content>\r\n      <div class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div fxLayoutAlign=\"start center\">\r\n          <mat-icon>\r\n            group\r\n          </mat-icon>\r\n          <span class=\"ml1\">{{ session.users.length }} attendees</span>\r\n        </div>\r\n        <div fxLayoutAlign=\"start center\">\r\n          <mat-icon>\r\n            calendar_month\r\n          </mat-icon>\r\n          <span class=\"ml1\">{{ session.date | date: 'longDate'}}</span>\r\n        </div>\r\n      </div>\r\n      <div class=\"description\">\r\n        <p>Description:</p>\r\n        {{ session.description }}\r\n        <br>\r\n      </div>\r\n      <div class=\"date\" class=\"my2\" fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n        <div class=\"created\"><i>Create at: </i> {{ session.createdAt| date: 'longDate'}}</div>\r\n        <div class=\"updated\"><i>Last update: </i> {{ session.updatedAt| date: 'longDate'}}</div>\r\n      </div>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n",
+        "import { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder } from '@angular/forms';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { ActivatedRoute, Router } from '@angular/router';\r\nimport { Teacher } from '../../../../interfaces/teacher.interface';\r\nimport { SessionService } from '../../../../services/session.service';\r\nimport { TeacherService } from '../../../../services/teacher.service';\r\nimport { Session } from '../../interfaces/session.interface';\r\nimport { SessionApiService } from '../../services/session-api.service';\r\n\r\n@Component({\r\n  selector: 'app-detail',\r\n  templateUrl: './detail.component.html',\r\n  styleUrls: ['./detail.component.scss']\r\n})\r\nexport class DetailComponent implements OnInit {\r\n  public session: Session | undefined;\r\n  public teacher: Teacher | undefined;\r\n\r\n  public isParticipate = false;\r\n  public isAdmin = false;\r\n\r\n  public sessionId: string;\r\n  public userId: string;\r\n\r\n  constructor(\r\n    private route: ActivatedRoute,\r\n    private fb: FormBuilder,\r\n    private sessionService: SessionService,\r\n    private sessionApiService: SessionApiService,\r\n    private teacherService: TeacherService,\r\n    private matSnackBar: MatSnackBar,\r\n    private router: Router) {\r\n    this.sessionId = this.route.snapshot.paramMap.get('id')!;\r\n    this.isAdmin = this.sessionService.sessionInformation!.admin;\r\n    this.userId = this.sessionService.sessionInformation!.id.toString();\r\n  }\r\n\r\n  public ngOnInit(): void {\r\n    this.fetchSession();\r\n  }\r\n\r\n  public back() {\r\n    window.history.back();\r\n  }\r\n\r\n  public delete(): void {\r\n    this.sessionApiService\r\n      .delete(this.sessionId)\r\n      .subscribe((_: any) => {\r\n          this.matSnackBar.open('Session deleted !', 'Close', { duration: 3000 });\r\n          this.router.navigate(['sessions']);\r\n        }\r\n      );\r\n  }\r\n\r\n  public participate(): void {\r\n    this.sessionApiService.participate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\r\n  }\r\n\r\n  public unParticipate(): void {\r\n    this.sessionApiService.unParticipate(this.sessionId, this.userId).subscribe(_ => this.fetchSession());\r\n  }\r\n\r\n  private fetchSession(): void {\r\n    this.sessionApiService\r\n      .detail(this.sessionId)\r\n      .subscribe((session: Session) => {\r\n        this.session = session;\r\n        this.isParticipate = session.users.some(u => u === this.sessionService.sessionInformation!.id);\r\n        this.teacherService\r\n          .detail(session.teacher_id.toString())\r\n          .subscribe((teacher: Teacher) => this.teacher = teacher);\r\n      });\r\n  }\r\n\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "addbad7a8e8a35eff4375191b364df97a472cb96"
+    "hash": "63614809039dce823e4b1a3362404467a838c263"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.ts",
@@ -14309,194 +14309,194 @@
       }
     },
     "s": {
-      "0": 140,
-      "1": 2,
-      "2": 2,
-      "3": 2,
-      "4": 146,
-      "5": 2,
-      "6": 2,
-      "7": 2,
-      "8": 500,
-      "9": 8,
-      "10": 8,
-      "11": 8,
-      "12": 500,
-      "13": 492,
-      "14": 492,
-      "15": 492,
-      "16": 492,
-      "17": 276,
-      "18": 4,
-      "19": 4,
-      "20": 4,
-      "21": 4,
-      "22": 4,
-      "23": 4,
-      "24": 4,
-      "25": 4,
-      "26": 4,
-      "27": 4,
-      "28": 4,
-      "29": 4,
-      "30": 4,
-      "31": 4,
-      "32": 4,
-      "33": 4,
-      "34": 4,
-      "35": 4,
-      "36": 4,
-      "37": 4,
-      "38": 4,
-      "39": 4,
-      "40": 4,
-      "41": 4,
-      "42": 4,
-      "43": 4,
-      "44": 4,
-      "45": 4,
-      "46": 4,
-      "47": 4,
-      "48": 4,
-      "49": 276,
-      "50": 272,
-      "51": 272,
-      "52": 272,
-      "53": 272,
-      "54": 272,
-      "55": 272,
-      "56": 272,
-      "57": 20,
-      "58": 4,
-      "59": 4,
-      "60": 4,
-      "61": 4,
-      "62": 4,
-      "63": 4,
-      "64": 4,
-      "65": 4,
-      "66": 4,
-      "67": 4,
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 0,
+      "57": 3,
+      "58": 0,
+      "59": 0,
+      "60": 0,
+      "61": 0,
+      "62": 0,
+      "63": 0,
+      "64": 0,
+      "65": 0,
+      "66": 0,
+      "67": 0,
       "68": 0,
-      "69": 4,
-      "70": 4,
-      "71": 2,
-      "72": 2,
-      "73": 2,
-      "74": 2,
-      "75": 2,
-      "76": 4,
-      "77": 4,
-      "78": 2,
-      "79": 2,
-      "80": 2,
-      "81": 2,
-      "82": 4,
-      "83": 4,
-      "84": 4,
-      "85": 20,
-      "86": 4,
-      "87": 20,
-      "88": 286,
-      "89": 4,
-      "90": 4,
-      "91": 4,
-      "92": 4,
-      "93": 4,
-      "94": 4,
-      "95": 4,
-      "96": 4,
-      "97": 286,
-      "98": 282,
-      "99": 282,
-      "100": 282,
-      "101": 282,
-      "102": 282,
-      "103": 282,
-      "104": 20
+      "69": 0,
+      "70": 0,
+      "71": 0,
+      "72": 0,
+      "73": 0,
+      "74": 0,
+      "75": 0,
+      "76": 0,
+      "77": 0,
+      "78": 0,
+      "79": 0,
+      "80": 0,
+      "81": 0,
+      "82": 0,
+      "83": 0,
+      "84": 0,
+      "85": 3,
+      "86": 0,
+      "87": 3,
+      "88": 0,
+      "89": 0,
+      "90": 0,
+      "91": 0,
+      "92": 0,
+      "93": 0,
+      "94": 0,
+      "95": 0,
+      "96": 0,
+      "97": 0,
+      "98": 0,
+      "99": 0,
+      "100": 0,
+      "101": 0,
+      "102": 0,
+      "103": 0,
+      "104": 3
     },
     "f": {
-      "0": 140,
-      "1": 146,
-      "2": 500,
-      "3": 276,
-      "4": 4,
-      "5": 20,
-      "6": 4,
-      "7": 4,
-      "8": 2,
-      "9": 4,
-      "10": 2,
-      "11": 2,
-      "12": 4,
-      "13": 4,
-      "14": 4,
-      "15": 286
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
     },
     "b": {
       "0": [
-        2,
-        138
+        0,
+        0
       ],
       "1": [
-        2,
-        144
+        0,
+        0
       ],
       "2": [
-        8,
-        492
+        0,
+        0
       ],
       "3": [
-        492,
-        8
+        0,
+        0
       ],
       "4": [
-        4,
-        272
+        0,
+        0
       ],
       "5": [
-        272,
-        4
+        0,
+        0
       ],
       "6": [
         0,
-        4
+        0
       ],
       "7": [
-        2,
-        2
+        0,
+        0
       ],
       "8": [
-        2,
-        2
+        0,
+        0
       ],
       "9": [
-        2,
-        2
+        0,
+        0
       ],
       "10": [
-        2,
-        2
+        0,
+        0
       ],
       "11": [
-        2,
-        2
+        0,
+        0
       ],
       "12": [
-        2,
-        2
+        0,
+        0
       ],
       "13": [
-        4,
-        4
+        0,
+        0
       ],
       "14": [
-        4,
-        282
+        0,
+        0
       ],
       "15": [
-        282,
-        4
+        0,
+        0
       ]
     },
     "inputSourceMap": {
@@ -14562,12 +14562,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\form\\form.component.html"
       ],
       "sourcesContent": [
-        "import { Component, OnInit } from '@angular/core';\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\nimport { MatSnackBar } from '@angular/material/snack-bar';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { SessionService } from '../../../../services/session.service';\nimport { TeacherService } from '../../../../services/teacher.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-form',\n  templateUrl: './form.component.html',\n  styleUrls: ['./form.component.scss']\n})\nexport class FormComponent implements OnInit {\n\n  public onUpdate: boolean = false;\n  public sessionForm: FormGroup | undefined;\n  public teachers$ = this.teacherService.all();\n  private id: string | undefined;\n\n  constructor(\n    private route: ActivatedRoute,\n    private fb: FormBuilder,\n    private matSnackBar: MatSnackBar,\n    private sessionApiService: SessionApiService,\n    private sessionService: SessionService,\n    private teacherService: TeacherService,\n    private router: Router\n  ) {\n  }\n\n  public ngOnInit(): void {\n    if (!this.sessionService.sessionInformation!.admin) {\n      this.router.navigate(['/sessions']);\n    }\n    const url = this.router.url;\n    if (url.includes('update')) {\n      this.onUpdate = true;\n      this.id = this.route.snapshot.paramMap.get('id')!;\n      this.sessionApiService\n        .detail(this.id)\n        .subscribe((session: Session) => this.initForm(session));\n    } else {\n      this.initForm();\n    }\n  }\n\n  public submit(): void {\n    const session = this.sessionForm?.value as Session;\n\n    if (!this.onUpdate) {\n      this.sessionApiService\n        .create(session)\n        .subscribe((_: Session) => this.exitPage('Session created !'));\n    } else {\n      this.sessionApiService\n        .update(this.id!, session)\n        .subscribe((_: Session) => this.exitPage('Session updated !'));\n    }\n  }\n\n  private initForm(session?: Session): void {\n    this.sessionForm = this.fb.group({\n      name: [\n        session ? session.name : '',\n        [Validators.required]\n      ],\n      date: [\n        session ? new Date(session.date).toISOString().split('T')[0] : '',\n        [Validators.required]\n      ],\n      teacher_id: [\n        session ? session.teacher_id : '',\n        [Validators.required]\n      ],\n      description: [\n        session ? session.description : '',\n        [\n          Validators.required,\n          Validators.max(2000)\n        ]\n      ],\n    });\n  }\n\n  private exitPage(message: string): void {\n    this.matSnackBar.open(message, 'Close', { duration: 3000 });\n    this.router.navigate(['sessions']);\n  }\n}\n",
-        "<div class=\"create m3\">\n  <mat-card>\n    <mat-card-title>\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\n        <button mat-icon-button routerLink=\"/sessions\">\n          <mat-icon>arrow_back</mat-icon>\n        </button>\n        <h1 *ngIf=\"!onUpdate\">Create session</h1>\n        <h1 *ngIf=\"onUpdate\">Update session</h1>\n      </div>\n    </mat-card-title>\n    <mat-card-content *ngIf=\"sessionForm\">\n      <form class=\"mt2\" fxLayout=\"column\" [formGroup]=\"sessionForm\" (ngSubmit)=\"submit()\">\n        <mat-form-field appearance=\"outline\" class=\"\" fxFlex>\n          <mat-label>Name</mat-label>\n          <input matInput formControlName=\"name\">\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\" fxFlex>\n          <mat-label>Date</mat-label>\n          <input matInput type=\"date\" formControlName=\"date\">\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\">\n          <mat-label>Teacher</mat-label>\n          <mat-select ngDefaultControl formControlName=\"teacher_id\">\n            <mat-option *ngFor=\"let teacher of teachers$ | async\" [value]=\"teacher.id\">\n              {{teacher.firstName}} {{teacher.lastName}}\n            </mat-option>\n          </mat-select>\n        </mat-form-field>\n        <mat-form-field appearance=\"outline\" fxFlex>\n          <mat-label>Description</mat-label>\n          <textarea matInput rows=\"8\" formControlName=\"description\"></textarea>\n        </mat-form-field>\n        <div fxLayout=\"row\" fxLayoutAlign=\"center center\">\n          <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"sessionForm.invalid\">\n            Save\n          </button>\n        </div>\n      </form>\n    </mat-card-content>\n  </mat-card>\n</div>\n"
+        "import { Component, OnInit } from '@angular/core';\r\nimport { FormBuilder, FormGroup, Validators } from '@angular/forms';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { ActivatedRoute, Router } from '@angular/router';\r\nimport { SessionService } from '../../../../services/session.service';\r\nimport { TeacherService } from '../../../../services/teacher.service';\r\nimport { Session } from '../../interfaces/session.interface';\r\nimport { SessionApiService } from '../../services/session-api.service';\r\n\r\n@Component({\r\n  selector: 'app-form',\r\n  templateUrl: './form.component.html',\r\n  styleUrls: ['./form.component.scss']\r\n})\r\nexport class FormComponent implements OnInit {\r\n\r\n  public onUpdate: boolean = false;\r\n  public sessionForm: FormGroup | undefined;\r\n  public teachers$ = this.teacherService.all();\r\n  private id: string | undefined;\r\n\r\n  constructor(\r\n    private route: ActivatedRoute,\r\n    private fb: FormBuilder,\r\n    private matSnackBar: MatSnackBar,\r\n    private sessionApiService: SessionApiService,\r\n    private sessionService: SessionService,\r\n    private teacherService: TeacherService,\r\n    private router: Router\r\n  ) {\r\n  }\r\n\r\n  public ngOnInit(): void {\r\n    if (!this.sessionService.sessionInformation!.admin) {\r\n      this.router.navigate(['/sessions']);\r\n    }\r\n    const url = this.router.url;\r\n    if (url.includes('update')) {\r\n      this.onUpdate = true;\r\n      this.id = this.route.snapshot.paramMap.get('id')!;\r\n      this.sessionApiService\r\n        .detail(this.id)\r\n        .subscribe((session: Session) => this.initForm(session));\r\n    } else {\r\n      this.initForm();\r\n    }\r\n  }\r\n\r\n  public submit(): void {\r\n    const session = this.sessionForm?.value as Session;\r\n\r\n    if (!this.onUpdate) {\r\n      this.sessionApiService\r\n        .create(session)\r\n        .subscribe((_: Session) => this.exitPage('Session created !'));\r\n    } else {\r\n      this.sessionApiService\r\n        .update(this.id!, session)\r\n        .subscribe((_: Session) => this.exitPage('Session updated !'));\r\n    }\r\n  }\r\n\r\n  private initForm(session?: Session): void {\r\n    this.sessionForm = this.fb.group({\r\n      name: [\r\n        session ? session.name : '',\r\n        [Validators.required]\r\n      ],\r\n      date: [\r\n        session ? new Date(session.date).toISOString().split('T')[0] : '',\r\n        [Validators.required]\r\n      ],\r\n      teacher_id: [\r\n        session ? session.teacher_id : '',\r\n        [Validators.required]\r\n      ],\r\n      description: [\r\n        session ? session.description : '',\r\n        [\r\n          Validators.required,\r\n          Validators.max(2000)\r\n        ]\r\n      ],\r\n    });\r\n  }\r\n\r\n  private exitPage(message: string): void {\r\n    this.matSnackBar.open(message, 'Close', { duration: 3000 });\r\n    this.router.navigate(['sessions']);\r\n  }\r\n}\r\n",
+        "<div class=\"create m3\">\r\n  <mat-card>\r\n    <mat-card-title>\r\n      <div fxLayout=\"row\" fxLayoutAlign=\"start center\">\r\n        <button mat-icon-button routerLink=\"/sessions\">\r\n          <mat-icon>arrow_back</mat-icon>\r\n        </button>\r\n        <h1 *ngIf=\"!onUpdate\">Create session</h1>\r\n        <h1 *ngIf=\"onUpdate\">Update session</h1>\r\n      </div>\r\n    </mat-card-title>\r\n    <mat-card-content *ngIf=\"sessionForm\">\r\n      <form class=\"mt2\" fxLayout=\"column\" [formGroup]=\"sessionForm\" (ngSubmit)=\"submit()\">\r\n        <mat-form-field appearance=\"outline\" class=\"\" fxFlex>\r\n          <mat-label>Name</mat-label>\r\n          <input matInput formControlName=\"name\">\r\n        </mat-form-field>\r\n        <mat-form-field appearance=\"outline\" fxFlex>\r\n          <mat-label>Date</mat-label>\r\n          <input matInput type=\"date\" formControlName=\"date\">\r\n        </mat-form-field>\r\n        <mat-form-field appearance=\"outline\">\r\n          <mat-label>Teacher</mat-label>\r\n          <mat-select ngDefaultControl formControlName=\"teacher_id\">\r\n            <mat-option *ngFor=\"let teacher of teachers$ | async\" [value]=\"teacher.id\">\r\n              {{teacher.firstName}} {{teacher.lastName}}\r\n            </mat-option>\r\n          </mat-select>\r\n        </mat-form-field>\r\n        <mat-form-field appearance=\"outline\" fxFlex>\r\n          <mat-label>Description</mat-label>\r\n          <textarea matInput rows=\"8\" formControlName=\"description\"></textarea>\r\n        </mat-form-field>\r\n        <div fxLayout=\"row\" fxLayoutAlign=\"center center\">\r\n          <button mat-raised-button color=\"primary\" type=\"submit\" [disabled]=\"sessionForm.invalid\">\r\n            Save\r\n          </button>\r\n        </div>\r\n      </form>\r\n    </mat-card-content>\r\n  </mat-card>\r\n</div>\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "896611308139e5fa51c5d40b6079de6bbcd31ff9"
+    "hash": "d1fa9c90b5059e0401a7ef875646153a2b6b920b"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts",
@@ -15906,131 +15906,131 @@
       }
     },
     "s": {
-      "0": 130,
-      "1": 14,
-      "2": 14,
-      "3": 14,
-      "4": 14,
-      "5": 14,
-      "6": 14,
-      "7": 20,
-      "8": 9,
-      "9": 27,
-      "10": 9,
-      "11": 9,
-      "12": 9,
-      "13": 9,
-      "14": 9,
-      "15": 9,
-      "16": 27,
-      "17": 18,
-      "18": 18,
-      "19": 20,
-      "20": 12,
-      "21": 36,
-      "22": 12,
-      "23": 12,
-      "24": 12,
-      "25": 12,
-      "26": 12,
-      "27": 12,
-      "28": 12,
-      "29": 12,
-      "30": 12,
-      "31": 12,
-      "32": 12,
-      "33": 12,
-      "34": 12,
-      "35": 12,
-      "36": 12,
-      "37": 12,
-      "38": 12,
-      "39": 12,
-      "40": 12,
-      "41": 12,
-      "42": 12,
-      "43": 36,
-      "44": 24,
-      "45": 24,
-      "46": 24,
-      "47": 24,
-      "48": 24,
-      "49": 24,
-      "50": 24,
-      "51": 24,
-      "52": 24,
-      "53": 24,
-      "54": 24,
-      "55": 24,
-      "56": 20,
-      "57": 23,
-      "58": 23,
-      "59": 23,
-      "60": 216,
-      "61": 20,
-      "62": 23,
-      "63": 20,
-      "64": 215,
-      "65": 23,
-      "66": 23,
-      "67": 23,
-      "68": 23,
-      "69": 23,
-      "70": 23,
-      "71": 23,
-      "72": 23,
-      "73": 23,
-      "74": 215,
-      "75": 192,
-      "76": 192,
-      "77": 192,
-      "78": 192,
-      "79": 20
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 3,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 3,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 0,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 0,
+      "51": 0,
+      "52": 0,
+      "53": 0,
+      "54": 0,
+      "55": 0,
+      "56": 3,
+      "57": 3,
+      "58": 3,
+      "59": 3,
+      "60": 20,
+      "61": 3,
+      "62": 3,
+      "63": 3,
+      "64": 23,
+      "65": 3,
+      "66": 3,
+      "67": 3,
+      "68": 3,
+      "69": 3,
+      "70": 3,
+      "71": 3,
+      "72": 3,
+      "73": 3,
+      "74": 23,
+      "75": 20,
+      "76": 20,
+      "77": 20,
+      "78": 20,
+      "79": 3
     },
     "f": {
-      "0": 130,
-      "1": 9,
-      "2": 27,
-      "3": 12,
-      "4": 36,
-      "5": 20,
-      "6": 23,
-      "7": 216,
-      "8": 23,
-      "9": 215
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3,
+      "6": 3,
+      "7": 20,
+      "8": 3,
+      "9": 23
     },
     "b": {
       "0": [
-        14,
-        116
+        0,
+        0
       ],
       "1": [
-        9,
-        18
+        0,
+        0
       ],
       "2": [
-        18,
-        9
+        0,
+        0
       ],
       "3": [
-        12,
-        24
+        0,
+        0
       ],
       "4": [
-        24,
-        12
+        0,
+        0
       ],
       "5": [
-        23,
-        23
+        3,
+        3
       ],
       "6": [
-        23,
-        192
+        3,
+        20
       ],
       "7": [
-        192,
-        23
+        20,
+        3
       ]
     },
     "inputSourceMap": {
@@ -16057,12 +16057,12 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\components\\list\\list.component.ts"
       ],
       "sourcesContent": [
-        "<div class=\"list\">\n  <mat-card>\n    <mat-card-header fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\n      <mat-card-title class=\"m0\">Rentals available</mat-card-title>\n      <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\" routerLink=\"create\">\n        <mat-icon>add</mat-icon>\n        <span class=\"ml1\">Create</span>\n      </button>\n    </mat-card-header>\n    <div class=\"items mt2\" fxLayout=\"row wrap\" fxLayout.lt-md=\"column\">\n      <mat-card class=\"item\" *ngFor=\"let session of (sessions$ | async)\" fxFlex>\n        <mat-card-header>\n          <mat-card-title>{{ session.name }}</mat-card-title>\n          <mat-card-subtitle>\n            Session on {{ session.date | date: 'longDate'}}\n          </mat-card-subtitle>\n        </mat-card-header>\n        <div mat-card-image fxLayoutAlign=\"center center\">\n          <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\n        </div>\n        <mat-card-content>\n          <p>\n            {{ session.description }}\n          </p>\n        </mat-card-content>\n        <mat-card-actions>\n          <button mat-raised-button color=\"primary\" [routerLink]=\"['detail',session.id]\">\n            <mat-icon>search</mat-icon>\n            <span class=\"ml1\">Detail</span>\n          </button>\n          <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\"\n                  [routerLink]=\"['update',session.id]\">\n            <mat-icon>edit</mat-icon>\n            <span class=\"ml1\">Edit</span>\n          </button>\n        </mat-card-actions>\n      </mat-card>\n    </div>\n  </mat-card>\n</div>\n",
-        "import { Component } from '@angular/core';\nimport { Observable } from 'rxjs';\nimport { SessionInformation } from '../../../../interfaces/sessionInformation.interface';\nimport { SessionService } from '../../../../services/session.service';\nimport { Session } from '../../interfaces/session.interface';\nimport { SessionApiService } from '../../services/session-api.service';\n\n@Component({\n  selector: 'app-list',\n  templateUrl: './list.component.html',\n  styleUrls: ['./list.component.scss']\n})\nexport class ListComponent {\n\n  public sessions$: Observable<Session[]> = this.sessionApiService.all();\n\n  constructor(\n    private sessionService: SessionService,\n    private sessionApiService: SessionApiService\n  ) { }\n\n  get user(): SessionInformation | undefined {\n    return this.sessionService.sessionInformation;\n  }\n}\n"
+        "<div class=\"list\">\r\n  <mat-card>\r\n    <mat-card-header fxLayout=\"row\" fxLayoutAlign=\"space-between center\">\r\n      <mat-card-title class=\"m0\">Rentals available</mat-card-title>\r\n      <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\" routerLink=\"create\">\r\n        <mat-icon>add</mat-icon>\r\n        <span class=\"ml1\">Create</span>\r\n      </button>\r\n    </mat-card-header>\r\n    <div class=\"items mt2\" fxLayout=\"row wrap\" fxLayout.lt-md=\"column\">\r\n      <mat-card class=\"item\" *ngFor=\"let session of (sessions$ | async)\" fxFlex>\r\n        <mat-card-header>\r\n          <mat-card-title>{{ session.name }}</mat-card-title>\r\n          <mat-card-subtitle>\r\n            Session on {{ session.date | date: 'longDate'}}\r\n          </mat-card-subtitle>\r\n        </mat-card-header>\r\n        <div mat-card-image fxLayoutAlign=\"center center\">\r\n          <img class=\"picture\" src=\"assets/sessions.png\" alt=\"Yoga session\">\r\n        </div>\r\n        <mat-card-content>\r\n          <p>\r\n            {{ session.description }}\r\n          </p>\r\n        </mat-card-content>\r\n        <mat-card-actions>\r\n          <button mat-raised-button color=\"primary\" [routerLink]=\"['detail',session.id]\">\r\n            <mat-icon>search</mat-icon>\r\n            <span class=\"ml1\">Detail</span>\r\n          </button>\r\n          <button *ngIf=\"user!.admin\" mat-raised-button color=\"primary\"\r\n                  [routerLink]=\"['update',session.id]\">\r\n            <mat-icon>edit</mat-icon>\r\n            <span class=\"ml1\">Edit</span>\r\n          </button>\r\n        </mat-card-actions>\r\n      </mat-card>\r\n    </div>\r\n  </mat-card>\r\n</div>\r\n",
+        "import { Component } from '@angular/core';\r\nimport { Observable } from 'rxjs';\r\nimport { SessionInformation } from '../../../../interfaces/sessionInformation.interface';\r\nimport { SessionService } from '../../../../services/session.service';\r\nimport { Session } from '../../interfaces/session.interface';\r\nimport { SessionApiService } from '../../services/session-api.service';\r\n\r\n@Component({\r\n  selector: 'app-list',\r\n  templateUrl: './list.component.html',\r\n  styleUrls: ['./list.component.scss']\r\n})\r\nexport class ListComponent {\r\n\r\n  public sessions$: Observable<Session[]> = this.sessionApiService.all();\r\n\r\n  constructor(\r\n    private sessionService: SessionService,\r\n    private sessionApiService: SessionApiService\r\n  ) { }\r\n\r\n  get user(): SessionInformation | undefined {\r\n    return this.sessionService.sessionInformation;\r\n  }\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "98bd9b52ac3ccc49389534dc4c8526c7665084c3"
+    "hash": "4892dd5500e058ff6d9c6675edb8c4ccfed739d5"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts",
@@ -16227,22 +16227,22 @@
       }
     },
     "s": {
-      "0": 20,
-      "1": 20,
-      "2": 20,
-      "3": 20,
-      "4": 20,
-      "5": 20,
-      "6": 20
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 3
     },
     "f": {
-      "0": 20,
-      "1": 20
+      "0": 3,
+      "1": 3
     },
     "b": {
       "0": [
-        20,
-        20
+        3,
+        3
       ]
     },
     "inputSourceMap": {
@@ -16265,11 +16265,11 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions-routing.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { DetailComponent } from './components/detail/detail.component';\nimport { FormComponent } from './components/form/form.component';\nimport { ListComponent } from './components/list/list.component';\n\nconst routes: Routes = [\n  { path: '', title: 'Sessions', component: ListComponent },\n  { path: 'detail/:id', title: 'Sessions - detail', component: DetailComponent },\n  { path: 'create', title: 'Sessions - create', component: FormComponent },\n  { path: 'update/:id', title: 'Sessions - update', component: FormComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class SessionsRoutingModule {\n}\n"
+        "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\nimport { DetailComponent } from './components/detail/detail.component';\r\nimport { FormComponent } from './components/form/form.component';\r\nimport { ListComponent } from './components/list/list.component';\r\n\r\nconst routes: Routes = [\r\n  { path: '', title: 'Sessions', component: ListComponent },\r\n  { path: 'detail/:id', title: 'Sessions - detail', component: DetailComponent },\r\n  { path: 'create', title: 'Sessions - create', component: FormComponent },\r\n  { path: 'update/:id', title: 'Sessions - update', component: FormComponent }\r\n];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forChild(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class SessionsRoutingModule {\r\n}\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "6f4dc2319a97bcb823be9dccce390edb028eb6ab"
+    "hash": "cf0cab110177bbe1a4c38b1e4166859ed529a7cf"
   },
   "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts": {
     "path": "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts",
@@ -16444,23 +16444,23 @@
       }
     },
     "s": {
-      "0": 20,
-      "1": 20,
-      "2": 20,
-      "3": 20,
-      "4": 20,
-      "5": 20,
-      "6": 20,
-      "7": 20
+      "0": 3,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3,
+      "5": 3,
+      "6": 3,
+      "7": 3
     },
     "f": {
-      "0": 20,
-      "1": 20
+      "0": 3,
+      "1": 3
     },
     "b": {
       "0": [
-        20,
-        20
+        3,
+        3
       ]
     },
     "inputSourceMap": {
@@ -16488,10 +16488,10 @@
         "C:\\Users\\chaima\\Desktop\\P5\\Testez-une-application-full-stack\\front\\src\\app\\features\\sessions\\sessions.module.ts"
       ],
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { CommonModule, registerLocaleData } from '@angular/common';\nimport { FlexLayoutModule } from '@angular/flex-layout';\nimport { ReactiveFormsModule } from '@angular/forms';\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatCardModule } from '@angular/material/card';\nimport { MatFormFieldModule } from '@angular/material/form-field';\nimport { MatIconModule } from '@angular/material/icon';\nimport { MatInputModule } from '@angular/material/input';\nimport { MatSelectModule } from '@angular/material/select';\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\nimport { ListComponent } from './components/list/list.component';\nimport { FormComponent } from './components/form/form.component';\nimport { DetailComponent } from './components/detail/detail.component';\nimport { SessionsRoutingModule } from './sessions-routing.module';\nimport localeFr from '@angular/common/locales/fr';\nregisterLocaleData(localeFr);\n\nconst materialModules = [\n  MatButtonModule,\n  MatCardModule,\n  MatFormFieldModule,\n  MatIconModule,\n  MatInputModule,\n  MatSnackBarModule,\n  MatSelectModule\n];\n\n@NgModule({\n  declarations: [\n    ListComponent,\n    FormComponent,\n    DetailComponent\n  ],\n  imports: [\n    CommonModule,\n    FlexLayoutModule,\n    ReactiveFormsModule,\n    SessionsRoutingModule,\n    ...materialModules\n  ]\n})\nexport class SessionsModule { }\n"
+        "import { NgModule } from '@angular/core';\r\nimport { CommonModule, registerLocaleData } from '@angular/common';\r\nimport { FlexLayoutModule } from '@angular/flex-layout';\r\nimport { ReactiveFormsModule } from '@angular/forms';\r\nimport { MatButtonModule } from '@angular/material/button';\r\nimport { MatCardModule } from '@angular/material/card';\r\nimport { MatFormFieldModule } from '@angular/material/form-field';\r\nimport { MatIconModule } from '@angular/material/icon';\r\nimport { MatInputModule } from '@angular/material/input';\r\nimport { MatSelectModule } from '@angular/material/select';\r\nimport { MatSnackBarModule } from '@angular/material/snack-bar';\r\nimport { ListComponent } from './components/list/list.component';\r\nimport { FormComponent } from './components/form/form.component';\r\nimport { DetailComponent } from './components/detail/detail.component';\r\nimport { SessionsRoutingModule } from './sessions-routing.module';\r\nimport localeFr from '@angular/common/locales/fr';\r\nregisterLocaleData(localeFr);\r\n\r\nconst materialModules = [\r\n  MatButtonModule,\r\n  MatCardModule,\r\n  MatFormFieldModule,\r\n  MatIconModule,\r\n  MatInputModule,\r\n  MatSnackBarModule,\r\n  MatSelectModule\r\n];\r\n\r\n@NgModule({\r\n  declarations: [\r\n    ListComponent,\r\n    FormComponent,\r\n    DetailComponent\r\n  ],\r\n  imports: [\r\n    CommonModule,\r\n    FlexLayoutModule,\r\n    ReactiveFormsModule,\r\n    SessionsRoutingModule,\r\n    ...materialModules\r\n  ]\r\n})\r\nexport class SessionsModule { }\r\n"
       ]
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "74ede619c25156294a74086407413f88450e0a05"
+    "hash": "34a3cd21ee8a7f851402ba80483f4ed2a814fdbb"
   }
 }

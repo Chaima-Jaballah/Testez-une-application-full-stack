@@ -137,5 +137,16 @@ class SessionServiceTest {
 
         assertThrows(NotFoundException.class, () -> sessionService.noLongerParticipate(1L, 2L));
     }
+    
+    
+    @Test
+    void testParticipate_UserNotFound() {
+        when(sessionRepository.findById(1L)).thenReturn(Optional.of(session));
+        when(userRepository.findById(2L)).thenReturn(Optional.empty());
+
+        assertThrows(NotFoundException.class, () -> sessionService.participate(1L, 2L));
+    }
+
+
 }
 
