@@ -24,4 +24,4 @@ jobs:
         with:
           working-directory: ./front
           record: true
-          key: ${{ secrets.CYPRESS_RECORD_KEY }}
+          key: ${{secrets.CYPRESS_RECORD_KEY}}
